@@ -37,8 +37,8 @@ function saveDB(data) {
 app.post('/api/netwatch', async (req, res) => {
     const { host, port, user, password } = req.body;
 
-    // تحويل المنفذ الممرر من القائمة أو استخدام 8728 الافتراضي
-    const targetPort = port ? parseInt(port, 10) : 8728;
+    // تحويل المنفذ الممرر من القائمة أو استخدام 2011 الافتراضي
+    const targetPort = port ? parseInt(port, 10) : 2011;
 
     const conn = new RouterOSAPI({
         host: host || "192.168.88.1",
