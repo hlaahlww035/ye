@@ -10,7 +10,6 @@
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, sans-serif; }
         body { background-color: #0f172a; color: var(--text-light); display: flex; height: 100vh; overflow: hidden; }
         
-        /* الشريط الجانبي والتأثير الانتقالي */
         .sidebar { width: 220px; background-color: var(--winbox-sidebar); border-left: 1px solid var(--winbox-border); display: flex; flex-direction: column; transition: width 0.3s ease; }
         .sidebar-header { padding: 15px; background-color: #0b1120; font-weight: bold; font-size: 12px; color: #6366f1; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--winbox-border); white-space: nowrap; overflow: hidden; }
         .sidebar-header .brand { display: flex; align-items: center; gap: 10px; }
@@ -22,7 +21,6 @@
         .menu-item.active, .menu-item:hover { background-color: #1e293b; color: #fff; border-right: 4px solid #6366f1; }
         .menu-item i { font-size: 16px; min-width: 20px; text-align: center; }
 
-        /* تنسيقات الشريط الجانبي عند الطي */
         .sidebar.collapsed { width: 40px; }
         .sidebar.collapsed .sidebar-header .brand span,
         .sidebar.collapsed .menu-item span { display: none; }
@@ -61,7 +59,6 @@
         th { background-color: #334155; color: #cbd5e1; position: sticky; top: 0; }
         tr:hover { background-color: #2d3748; }
 
-        /* تنسيق رابط الـ IP */
         .ip-link { color: #e2e8f0; text-decoration: none; transition: color 0.2s; }
         .ip-link:hover { color: #6366f1; text-decoration: underline; }
 
@@ -77,6 +74,9 @@
         input:checked + .slider { background-color: #10b981; }
         input:checked + .slider:before { transform: translateX(18px); }
         .timer-badge { font-size: 11px; color: #f59e0b; font-weight: bold; display: none; }
+
+        /* شريط إعدادات التلجرام */
+        .telegram-bar { background-color: #1e293b; padding: 8px 20px; border-bottom: 1px solid #334155; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; font-size: 12px; }
     </style>
 </head>
 <body>
@@ -110,10 +110,21 @@
                 </div>
                 <div class="input-group"><label>User:</label><input type="password" id="routerUser" value="asd201" style="width: 90px;"></div>
                 <div class="input-group"><label>Pass:</label><input type="password" id="routerPass" value="asd2011**" style="width: 90px;"></div>
-                <!-- زر موحد للاتصال والقطع -->
                 <button class="btn btn-primary" id="connectBtn" onclick="toggleConnection()"><i class="fa-solid fa-plug"></i> اتصل بالميكروتيك</button>
             </div>
             <div id="connectionStatus" style="font-size: 12px; color: #94a3b8;"><i class="fa-solid fa-circle" style="font-size: 8px;"></i> غير متصل بالميكروتيك</div>
+        </div>
+
+        <!-- شريط إعدادات التلجرام -->
+        <div class="telegram-bar">
+            <span style="color: #38bdf8; font-weight: bold;"><i class="fa-brands fa-telegram"></i> إعدادات التلجرام:</span>
+            <div class="input-group"><label>Bot Token:</label><input type="password" id="telegramToken" placeholder="8672540529:AAFTrN2HK-Vk2DMNME2PomH81v2-Rf85qBI" style="width: 140px;"></div>
+            <div class="input-group"><label>Chat ID:</label><input type="password" id="telegramChatId" placeholder="-1003934734599" style="width: 100px;"></div>
+            <div class="auto-refresh-box" style="padding: 3px 8px;">
+                <label class="switch"><input type="checkbox" id="telegramNotifyToggle"><span class="slider"></span></label>
+                <span>تفعيل الإشعارات</span>
+            </div>
+            <button class="btn btn-info" style="padding: 4px 10px; font-size: 11px;" onclick="testTelegram()"><i class="fa-solid fa-paper-plane"></i> تجربة الإشعار</button>
         </div>
 
         <!-- Section 1: Dashboard -->
@@ -125,7 +136,7 @@
             </div>
 
             <div class="window-header">
-                <div class="window-title"><i class="fa-solid fa-list-check"></i> شبكة يمن نت اللاسلكية</div>
+                <div class="window-title"><i class="fa-solid fa-list-check"></i> أجهزة شبكة يمن نت اللاسلكية</div>
                 <div style="display: flex; gap: 8px; align-items: center;">
                     <div class="auto-refresh-box">
                         <label class="switch"><input type="checkbox" id="autoRefreshToggle" onchange="toggleAutoRefresh()"><span class="slider"></span></label>
@@ -226,12 +237,12 @@
             document.getElementById('sidebar').classList.toggle('collapsed');
         });
 
-        // المجموعات فارغة تماماً عند البداية
         let devices = [];
         let logsList = [];
         let currentFilteredDevices = [];
         let currentFilteredLogs = [];
         let isConnected = false;
+        let previousStatuses = {}; // حفظ الحالات السابقة لمقارنتها بالجديدة
 
         let countdownInterval = null;
         const REFRESH_TIME_SECONDS = 120;
@@ -245,6 +256,59 @@
 
             if (tabId === 'logs') {
                 applyLogFilters();
+            }
+        }
+
+        // --- دالة إرسال التلجرام ---
+        async function sendTelegramMessage(text) {
+            const token = document.getElementById('telegramToken').value.trim();
+            const chatId = document.getElementById('telegramChatId').value.trim();
+            const isEnabled = document.getElementById('telegramNotifyToggle').checked;
+
+            if (!isEnabled || !token || !chatId) return;
+
+            const url = `https://api.telegram.org/bot${token}/sendMessage`;
+            try {
+                await fetch(url, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        chat_id: chatId,
+                        text: text,
+                        parse_mode: 'HTML'
+                    })
+                });
+            } catch (err) {
+                console.error("خطأ في إرسال إشعار التلجرام:", err);
+            }
+        }
+
+        async function testTelegram() {
+            const token = document.getElementById('telegramToken').value.trim();
+            const chatId = document.getElementById('telegramChatId').value.trim();
+            
+            if (!token || !chatId) {
+                alert("يرجى إدخال Bot Token و Chat ID أولاً!");
+                return;
+            }
+
+            const testMessage = `🤖 <b>اختبار إشعارات Netwatch</b>\n\nنظام الإشعارات يعمل بنجاح! ✅`;
+            const url = `https://api.telegram.org/bot${token}/sendMessage`;
+
+            try {
+                const res = await fetch(url, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ chat_id: chatId, text: testMessage, parse_mode: 'HTML' })
+                });
+                const data = await res.json();
+                if (data.ok) {
+                    alert("تم إرسال رسالة الاختبار بنجاح!");
+                } else {
+                    alert("فشل الإرسال: " + data.description);
+                }
+            } catch (e) {
+                alert("تعذر الاتصال بـ Telegram API");
             }
         }
 
@@ -362,7 +426,6 @@
             renderTable(filtered);
         }
 
-        // التبديل بين الاتصال والقطع بنفس الزر
         function toggleConnection() {
             if (isConnected) {
                 disconnectRouter();
@@ -402,10 +465,27 @@
                     devices = data.devices || [];
                     logsList = data.logs || [];
 
+                    // التحقق من تغير الحالة لإرسال الإشعارات
+                    devices.forEach(dev => {
+                        const currentStatus = dev.lastStatus || dev.status;
+                        const prevStatus = previousStatuses[dev.host];
+
+                        if (prevStatus && prevStatus !== currentStatus) {
+                            const name = dev.comment || dev.name || 'بدون اسم';
+                            if (currentStatus === 'down') {
+                                const msg = `🔴 <b>تنبيه إطفاء جهاز!</b>\n\n📌 <b>الجهاز:</b> ${name}\n🌐 <b>الـ IP:</b> <code>${dev.host}</code>\n⏰ <b>الوقت:</b> ${new Date().toLocaleTimeString('ar-EG')}`;
+                                sendTelegramMessage(msg);
+                            } else if (currentStatus === 'up') {
+                                const msg = `🟢 <b>تنبيه تشغيل جهاز!</b>\n\n📌 <b>الجهاز:</b> ${name}\n🌐 <b>الـ IP:</b> <code>${dev.host}</code>\n⏰ <b>الوقت:</b> ${new Date().toLocaleTimeString('ar-EG')}`;
+                                sendTelegramMessage(msg);
+                            }
+                        }
+                        previousStatuses[dev.host] = currentStatus;
+                    });
+
                     statusDiv.innerHTML = `<i class="fa-solid fa-circle" style="font-size: 8px;"></i> تم المزامنة والتسجيل (${new Date().toLocaleTimeString('ar-EG')})`;
                     statusDiv.style.color = "#10b981";
                     
-                    // تحويل حالة الزر إلى قطع الاتصال
                     isConnected = true;
                     btn.className = "btn btn-danger";
                     btn.innerHTML = `<i class="fa-solid fa-plug-circle-xmark"></i> قطع الاتصال`;
@@ -423,21 +503,18 @@
         }
 
         function disconnectRouter() {
-            // إيقاف التحديث التلقائي إذا كان يعمّل
             document.getElementById("autoRefreshToggle").checked = false;
             toggleAutoRefresh();
 
-            // تفريغ البيانات
             devices = [];
             logsList = [];
+            previousStatuses = {};
             isConnected = false;
             
-            // إعادة ضبط الزر للحالة الافتراضية
             const btn = document.getElementById("connectBtn");
             btn.className = "btn btn-primary";
             btn.innerHTML = `<i class="fa-solid fa-plug"></i> اتصل بالميكروتيك`;
 
-            // تحديث نص الحالة
             const statusDiv = document.getElementById("connectionStatus");
             statusDiv.innerHTML = `<i class="fa-solid fa-circle" style="font-size: 8px;"></i> غير متصل بالميكروتيك`;
             statusDiv.style.color = "#94a3b8";
@@ -533,7 +610,6 @@
             link.click();
         }
 
-        // إظهار الشاشة فارغة عند بداية التحميل
         renderTable();
         applyLogFilters();
     </script>
