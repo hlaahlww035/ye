@@ -10,6 +10,7 @@
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, sans-serif; }
         body { background-color: #0f172a; color: var(--text-light); display: flex; height: 100vh; overflow: hidden; }
         
+        /* الشريط الجانبي والتأثير الانتقالي */
         .sidebar { width: 220px; background-color: var(--winbox-sidebar); border-left: 1px solid var(--winbox-border); display: flex; flex-direction: column; transition: width 0.3s ease; }
         .sidebar-header { padding: 15px; background-color: #0b1120; font-weight: bold; font-size: 16px; color: #6366f1; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--winbox-border); white-space: nowrap; overflow: hidden; }
         .sidebar-header .brand { display: flex; align-items: center; gap: 10px; }
@@ -21,6 +22,7 @@
         .menu-item.active, .menu-item:hover { background-color: #1e293b; color: #fff; border-right: 4px solid #6366f1; }
         .menu-item i { font-size: 16px; min-width: 20px; text-align: center; }
 
+        /* تنسيقات الشريط الجانبي عند الطي */
         .sidebar.collapsed { width: 60px; }
         .sidebar.collapsed .sidebar-header .brand span,
         .sidebar.collapsed .menu-item span { display: none; }
@@ -112,6 +114,7 @@
             <div id="connectionStatus" style="font-size: 12px; color: #10b981;"><i class="fa-solid fa-circle" style="font-size: 8px;"></i> متصل بالسيرفر المحلي</div>
         </div>
 
+        <!-- Section 1: Dashboard -->
         <div id="section-dashboard" class="page-section active">
             <div class="stats-cards">
                 <div class="card"><div class="card-info"><h4>إجمالي الأجهزة</h4><span id="total-count">0</span></div><i class="fa-solid fa-list" style="color:#6366f1;font-size:24px;"></i></div>
@@ -125,7 +128,7 @@
                     <div class="auto-refresh-box">
                         <label class="switch"><input type="checkbox" id="autoRefreshToggle" onchange="toggleAutoRefresh()"><span class="slider"></span></label>
                         <span>تحديث تلقائي (دقيقتين)</span>
-                        <span id="timerCountdown" class="timer-badge">02:00</span>
+                        <span id="timerCountdown" class="timer-badge">10:00</span>
                     </div>
                     <button class="btn btn-info" onclick="connectRouter()"><i class="fa-solid fa-arrows-rotate"></i> تحديث يدوي</button>
                     <button class="btn btn-success" onclick="exportExcel()"><i class="fa-solid fa-file-excel"></i> تصدير اكسل</button>
@@ -162,6 +165,7 @@
             </div>
         </div>
 
+        <!-- Section 2: Logs Window -->
         <div id="section-logs" class="page-section">
             <div class="stats-cards">
                 <div class="card"><div class="card-info"><h4>إجمالي السجلات المسجلة</h4><span id="log-total-count">0</span></div><i class="fa-solid fa-clock-rotate-left" style="color:#6366f1;font-size:24px;"></i></div>
@@ -212,9 +216,11 @@
                 </table>
             </div>
         </div>
+
     </div>
 
     <script>
+        // زر طي وفتح العمود الجانبي
         document.getElementById('toggleSidebar').addEventListener('click', function() {
             document.getElementById('sidebar').classList.toggle('collapsed');
         });
@@ -356,8 +362,9 @@
             const pass = document.getElementById("routerPass").value;
             const statusDiv = document.getElementById("connectionStatus");
 
+            // استخراج العنوان والمنفذ في حال كان العرض يحتوي على بورت مثل :6666
             let host = rawHost;
-            let port = 2011;
+            let port = 2011; // المنفذ الافتراضي
 
             if (rawHost.includes(":")) {
                 const parts = rawHost.split(":");
