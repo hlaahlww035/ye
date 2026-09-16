@@ -120,9 +120,9 @@ app.get('/api/logs', (req, res) => {
     res.json(db.logs);
 });
 
-// توجيه كافة الطلبات الأخرى لفتح الواجهة الرئيسية
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
+// توجيه كافة الطلبات الأخرى لفتح الواجهة الرئيسية (تم تعديل المسار لتفادي خطأ PathError)
+app.get('(.*)', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index_2.html'));
 });
 
 // تشغيل السيرفر على البورت المعين محلياً أو من بيئة الاستضافة السحابية
