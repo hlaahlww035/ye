@@ -61,6 +61,10 @@
         th { background-color: #334155; color: #cbd5e1; position: sticky; top: 0; }
         tr:hover { background-color: #2d3748; }
 
+        /* تنسيق رابط الـ IP */
+        .ip-link { color: #e2e8f0; text-decoration: none; transition: color 0.2s; }
+        .ip-link:hover { color: #6366f1; text-decoration: underline; }
+
         .status-badge { padding: 3px 10px; border-radius: 12px; font-weight: bold; font-size: 11px; display: inline-flex; align-items: center; gap: 5px; }
         .status-up { background-color: rgba(16, 185, 129, 0.15); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.3); }
         .status-down { background-color: rgba(239, 68, 68, 0.15); color: #ef4444; border: 1px solid rgba(239, 68, 68, 0.3); }
@@ -99,9 +103,9 @@
                 <div class="input-group">
                     <label>MikroTik Host:</label>
                     <select id="routerIp">
-                        <option value="d8550f5333d0.sn.mynetname.net"> الدمج</option>
-                        <option value="d8550f5333d0.sn.mynetname.net:9494"> التوزيع</option>
-                        <option value="d8550f5333d0.sn.mynetname.net"> دمج اليهود</option>
+                        <option value="d8550f5333d0.sn.mynetname.net:9494"> MikroTik A</option>
+                        <option value="d8550f5333d0.sn.mynetname.net"> MikroTik B</option>
+                        <option value="d8550f5333d0.sn.mynetname.net:9495"> MikroTik C</option>
                     </select>
                 </div>
                 <div class="input-group"><label>User:</label><input type="password" id="routerUser" value="asd201" style="width: 90px;"></div>
@@ -227,7 +231,7 @@
         let logsList = [];
         let currentFilteredDevices = [];
         let currentFilteredLogs = [];
-        let isConnected = false; // تتبع حالة الاتصال
+        let isConnected = false;
 
         let countdownInterval = null;
         const REFRESH_TIME_SECONDS = 120;
@@ -257,7 +261,10 @@
                 const row = document.createElement("tr");
                 row.innerHTML = `
                     <td>${index + 1}</td>
-                    <td style="font-weight: 600;"><i class="fa-solid fa-network-wired" style="color: #6366f1; margin-left: 6px;"></i> ${dev.host}</td>
+                    <td style="font-weight: 600;">
+                        <i class="fa-solid fa-network-wired" style="color: #6366f1; margin-left: 6px;"></i>
+                        <a href="http://${dev.host}" target="_blank" class="ip-link" title="فتح صفحة الجهاز">${dev.host}</a>
+                    </td>
                     <td>${dev.comment || dev.name || '-'}</td>
                     <td style="color: #10b981; font-weight: bold;">${dev.upCount ?? 0}</td>
                     <td style="color: #ef4444; font-weight: bold;">${dev.downCount ?? 0}</td>
