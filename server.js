@@ -121,8 +121,8 @@ app.get('/api/logs', (req, res) => {
 });
 
 // توجيه كافة الطلبات الأخرى لفتح الواجهة الرئيسية (تم تعديل المسار لتفادي خطأ PathError)
-app.get('(.*)', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index_2.html'));
+app.use((req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // تشغيل السيرفر على البورت المعين محلياً أو من بيئة الاستضافة السحابية
