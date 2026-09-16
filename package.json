@@ -1,0 +1,20 @@
+{
+  "name": "mikrotik-app",
+  "version": "1.0.0",
+  "description": "MikroTik Netwatch Monitor App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "node-routeros": "^1.6.8",
+    "routeros-client": "^1.1.1"
+  }
+}

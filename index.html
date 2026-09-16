@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MikroTik Netwatch - لوحة المراقبة وسجل الأحداث</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root { --winbox-bg: #2d3748; --winbox-header: #1a202c; --winbox-sidebar: #10172a; --winbox-border: #4a5568; --text-light: #e2e8f0; }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, sans-serif; }
+        body { background-color: #0f172a; color: var(--text-light); display: flex; height: 100vh; overflow: hidden; }
+        
+        .sidebar { width: 220px; background-color: var(--winbox-sidebar); border-left: 1px solid var(--winbox-border); display: flex; flex-direction: column; transition: width 0.3s ease; }
+        .sidebar-header { padding: 15px; background-color: #0b1120; font-weight: bold; font-size: 16px; color: #6366f1; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--winbox-border); white-space: nowrap; overflow: hidden; }
+        .sidebar-header .brand { display: flex; align-items: center; gap: 10px; }
+        .toggle-btn { background: transparent; border: none; color: #94a3b8; font-size: 18px; cursor: pointer; padding: 4px 8px; border-radius: 4px; transition: 0.2s; }
+        .toggle-btn:hover { color: #fff; background-color: #1e293b; }
+
+        .menu-list { list-style: none; padding: 10px 0; }
+        .menu-item { padding: 10px 18px; display: flex; align-items: center; gap: 12px; color: #94a3b8; cursor: pointer; font-size: 14px; transition: 0.2s; white-space: nowrap; overflow: hidden; }
+        .menu-item.active, .menu-item:hover { background-color: #1e293b; color: #fff; border-right: 4px solid #6366f1; }
+        .menu-item i { font-size: 16px; min-width: 20px; text-align: center; }
+
+        .sidebar.collapsed { width: 60px; }
+        .sidebar.collapsed .sidebar-header .brand span,
+        .sidebar.collapsed .menu-item span { display: none; }
+        .sidebar.collapsed .menu-item { padding: 12px 0; justify-content: center; }
+        .sidebar.collapsed .menu-item.active, .sidebar.collapsed .menu-item:hover { border-right: none; border-bottom: 3px solid #6366f1; }
+
+        .main-content { flex: 1; display: flex; flex-direction: column; background-color: #1e293b; overflow-y: auto; transition: all 0.3s ease; }
+        .page-section { display: none; flex-direction: column; flex: 1; }
+        .page-section.active { display: flex; }
+        
+        .top-bar { background-color: var(--winbox-header); padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--winbox-border); gap: 15px; flex-wrap: wrap; }
+        .connection-form { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+        .input-group { display: flex; align-items: center; background: #334155; border-radius: 6px; padding: 4px 10px; border: 1px solid #475569; }
+        .input-group label { font-size: 12px; color: #94a3b8; margin-left: 8px; }
+        .input-group input, .input-group select { background: transparent; border: none; color: white; outline: none; font-size: 13px; }
+        .input-group select { cursor: pointer; padding: 2px 0; }
+        .input-group select option { background-color: #1e293b; color: white; }
+        
+        .btn { padding: 7px 16px; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; display: flex; align-items: center; gap: 8px; font-size: 13px; }
+        .btn-primary { background-color: #4f46e5; color: white; }
+        .btn-success { background-color: #10b981; color: white; }
+        .btn-info { background-color: #0284c7; color: white; }
+        .btn-danger { background-color: #ef4444; color: white; }
+
+        .window-header { background-color: #334155; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--winbox-border); }
+        .toolbar { display: flex; gap: 12px; padding: 8px 20px; background-color: #1e293b; border-bottom: 1px solid #334155; align-items: center; flex-wrap: wrap; }
+        .search-box input, .select-filter { background: #0f172a; border: 1px solid #334155; color: white; padding: 6px 10px; border-radius: 4px; font-size: 13px; outline: none; }
+        .stats-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; padding: 15px 20px; background-color: #0f172a; }
+        .card { background-color: #1e293b; padding: 12px 18px; border-radius: 8px; border: 1px solid #334155; display: flex; align-items: center; justify-content: space-between; }
+        .card-info h4 { font-size: 12px; color: #94a3b8; }
+        .card-info span { font-size: 20px; font-weight: bold; }
+        
+        .table-container { flex: 1; overflow-y: auto; padding: 15px 20px; background-color: #0f172a; }
+        table { width: 100%; border-collapse: collapse; background-color: #1e293b; font-size: 13px; }
+        th, td { padding: 10px 15px; text-align: right; border-bottom: 1px solid #334155; }
+        th { background-color: #334155; color: #cbd5e1; position: sticky; top: 0; }
+        tr:hover { background-color: #2d3748; }
+
+        .status-badge { padding: 3px 10px; border-radius: 12px; font-weight: bold; font-size: 11px; display: inline-flex; align-items: center; gap: 5px; }
+        .status-up { background-color: rgba(16, 185, 129, 0.15); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.3); }
+        .status-down { background-color: rgba(239, 68, 68, 0.15); color: #ef4444; border: 1px solid rgba(239, 68, 68, 0.3); }
+        
+        .auto-refresh-box { display: flex; align-items: center; gap: 8px; background: #0f172a; padding: 5px 12px; border-radius: 6px; border: 1px solid #334155; font-size: 13px; }
+        .switch { position: relative; display: inline-block; width: 38px; height: 20px; }
+        .switch input { opacity: 0; width: 0; height: 0; }
+        .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #475569; transition: .3s; border-radius: 20px; }
+        .slider:before { position: absolute; content: ""; height: 14px; width: 14px; left: 3px; bottom: 3px; background-color: white; transition: .3s; border-radius: 50%; }
+        input:checked + .slider { background-color: #10b981; }
+        input:checked + .slider:before { transform: translateX(18px); }
+        .timer-badge { font-size: 11px; color: #f59e0b; font-weight: bold; display: none; }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="brand">
+                <i class="fa-solid fa-network-wired"></i>
+                <span>WinBox Netwatch</span>
+            </div>
+            <button class="toggle-btn" id="toggleSidebar" title="طي/فتح القائمة">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <ul class="menu-list">
+            <li class="menu-item active" onclick="switchTab('dashboard', this)"><i class="fa-solid fa-desktop"></i> <span>Dashboard</span></li>
+            <li class="menu-item" onclick="switchTab('logs', this)"><i class="fa-solid fa-clock-rotate-left"></i> <span>سجل الأحداث (Logs)</span></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="top-bar">
+            <div class="connection-form">
+                <div class="input-group">
+                    <label>MikroTik Host:</label>
+                    <select id="routerIp">
+                        <option value="192.168.88.1"> 192.168.88.1</option>
+                        <option value="192.168.88.8"> 192.168.88.8</option>
+                        <option value="d8550f5333d0.sn.mynetname.net"> d8550f5333d0.sn.mynetname.net</option>
+                        <option value="d8550f5333d0.sn.mynetname.net:6666"> d8550f5333d0.sn.mynetname.net:6666</option>
+                        <option value="d8550da322d7.sn.mynetname.net"> d8550da322d7.sn.mynetname.net</option>
+                        <option value="d8550da322d7.sn.mynetname.net:6666"> d8550da322d7.sn.mynetname.net:6666</option>
+                    </select>
+                </div>
+                <div class="input-group"><label>User:</label><input type="text" id="routerUser" value="asd2011" style="width: 90px;"></div>
+                <div class="input-group"><label>Pass:</label><input type="password" id="routerPass" value="asd2011**" style="width: 90px;"></div>
+                <button class="btn btn-primary" onclick="connectRouter()"><i class="fa-solid fa-plug"></i> اتصل بالميكروتيك</button>
+            </div>
+            <div id="connectionStatus" style="font-size: 12px; color: #10b981;"><i class="fa-solid fa-circle" style="font-size: 8px;"></i> متصل بالسيرفر المحلي</div>
+        </div>
+
+        <div id="section-dashboard" class="page-section active">
+            <div class="stats-cards">
+                <div class="card"><div class="card-info"><h4>إجمالي الأجهزة</h4><span id="total-count">0</span></div><i class="fa-solid fa-list" style="color:#6366f1;font-size:24px;"></i></div>
+                <div class="card"><div class="card-info"><h4>شغالة (Up)</h4><span id="up-count" style="color: #10b981;">0</span></div><i class="fa-solid fa-circle-check" style="color:#10b981;font-size:24px;"></i></div>
+                <div class="card"><div class="card-info"><h4>طافية (Down)</h4><span id="down-count" style="color: #ef4444;">0</span></div><i class="fa-solid fa-circle-xmark" style="color:#ef4444;font-size:24px;"></i></div>
+            </div>
+
+            <div class="window-header">
+                <div class="window-title"><i class="fa-solid fa-list-check"></i> قائمة أجهزة Netwatch</div>
+                <div style="display: flex; gap: 8px; align-items: center;">
+                    <div class="auto-refresh-box">
+                        <label class="switch"><input type="checkbox" id="autoRefreshToggle" onchange="toggleAutoRefresh()"><span class="slider"></span></label>
+                        <span>تحديث تلقائي (دقيقتين)</span>
+                        <span id="timerCountdown" class="timer-badge">02:00</span>
+                    </div>
+                    <button class="btn btn-info" onclick="connectRouter()"><i class="fa-solid fa-arrows-rotate"></i> تحديث يدوي</button>
+                    <button class="btn btn-success" onclick="exportExcel()"><i class="fa-solid fa-file-excel"></i> تصدير اكسل</button>
+                </div>
+            </div>
+
+            <div class="toolbar">
+                <div class="search-box"><input type="text" id="searchInput" onkeyup="applyFilters()" placeholder="بحث عن IP أو اسم..."></div>
+                <select id="categoryFilter" class="select-filter" onchange="applyFilters()">
+                    <option value="all">كافة الأجهزة (الكل)</option>
+                    <option value="192.168.94.">الراديوس </option>
+                    <option value="192.168.88.">الأجهزة الرئيسية </option>
+                    <option value="10.0.0.">أجهزة M2 </option>
+                    <option value="10.0.1.">أجهزة M5 </option>
+                    <option value="10.0.2.">الأكسس بوينت </option>
+                </select>
+                <select id="statusFilter" class="select-filter" onchange="applyFilters()">
+                    <option value="all">جميع الحالات</option>
+                    <option value="up">الأجهزة الشغالة</option>
+                    <option value="down">الأجهزة الطافية</option>
+                </select>
+                <span id="items-count" style="font-size: 12px; color: #94a3b8; margin-right: auto;">0 items</span>
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th><th>Host (عنوان IP)</th><th>اسم الجهاز / Description</th><th>عدد مرات التشغيل</th><th>عدد مرات الإطفاء</th><th>Status (الحالة)</th><th>منذ تاريخ</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="section-logs" class="page-section">
+            <div class="stats-cards">
+                <div class="card"><div class="card-info"><h4>إجمالي السجلات المسجلة</h4><span id="log-total-count">0</span></div><i class="fa-solid fa-clock-rotate-left" style="color:#6366f1;font-size:24px;"></i></div>
+                <div class="card"><div class="card-info"><h4>أحداث التشغيل (UP)</h4><span id="log-up-count" style="color: #10b981;">0</span></div><i class="fa-solid fa-circle-check" style="color:#10b981;font-size:24px;"></i></div>
+                <div class="card"><div class="card-info"><h4>أحداث الإطفاء (DOWN)</h4><span id="log-down-count" style="color: #ef4444;">0</span></div><i class="fa-solid fa-circle-xmark" style="color:#ef4444;font-size:24px;"></i></div>
+            </div>
+
+            <div class="window-header">
+                <div class="window-title"><i class="fa-solid fa-clock-rotate-left"></i> سجل أحداث التغييرات والإطفاء (Logs History)</div>
+                <div style="display: flex; gap: 8px; align-items: center;">
+                    <button class="btn btn-info" onclick="connectRouter()"><i class="fa-solid fa-arrows-rotate"></i> تحديث</button>
+                    <button class="btn btn-success" onclick="exportLogsExcel()"><i class="fa-solid fa-file-excel"></i> تصدير اكسل</button>
+                    <button class="btn btn-danger" onclick="clearLogs()"><i class="fa-solid fa-trash"></i> مسح السجل</button>
+                </div>
+            </div>
+
+            <div class="toolbar">
+                <div class="search-box"><input type="text" id="logSearchInput" onkeyup="applyLogFilters()" placeholder="بحث في السجل عن IP أو اسم..."></div>
+                <select id="logCategoryFilter" class="select-filter" onchange="applyLogFilters()">
+                    <option value="all">كافة الأجهزة (الكل)</option>
+                    <option value="192.168.94.">الراديوس </option>
+                    <option value="192.168.88.">الأجهزة الرئيسية </option>
+                    <option value="10.0.0.">أجهزة M2 </option>
+                    <option value="10.0.1.">أجهزة M5 </option>
+                    <option value="10.0.2.">الأكسس بوينت </option>
+                </select>
+                <select id="logStatusFilter" class="select-filter" onchange="applyLogFilters()">
+                    <option value="all">جميع الأحداث</option>
+                    <option value="up">أحداث UP</option>
+                    <option value="down">أحداث DOWN</option>
+                </select>
+                <span id="log-items-count" style="font-size: 12px; color: #94a3b8; margin-right: auto;">0 items</span>
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>التاريخ والوقت</th>
+                            <th>عنوان IP</th>
+                            <th>اسم الجهاز</th>
+                            <th>نوع الحدث</th>
+                            <th>تفاصيل الحدث</th>
+                        </tr>
+                    </thead>
+                    <tbody id="logsTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('toggleSidebar').addEventListener('click', function() {
+            document.getElementById('sidebar').classList.toggle('collapsed');
+        });
+
+        let devices = JSON.parse(localStorage.getItem("saved_netwatch_data")) || [];
+        let logsList = JSON.parse(localStorage.getItem("saved_netwatch_logs")) || [];
+        let currentFilteredDevices = [...devices];
+        let currentFilteredLogs = [...logsList];
+
+        let countdownInterval = null;
+        const REFRESH_TIME_SECONDS = 120;
+        let remainingSeconds = REFRESH_TIME_SECONDS;
+
+        function switchTab(tabId, element) {
+            document.querySelectorAll('.menu-item').forEach(item => item.classList.remove('active'));
+            document.querySelectorAll('.page-section').forEach(sec => sec.classList.remove('active'));
+            element.classList.add('active');
+            document.getElementById('section-' + tabId).classList.add('active');
+
+            if (tabId === 'logs') {
+                applyLogFilters();
+            }
+        }
+
+        function renderTable(dataToRender = devices) {
+            currentFilteredDevices = dataToRender;
+            const tbody = document.getElementById("tableBody");
+            tbody.innerHTML = "";
+            let upTotal = 0, downTotal = 0;
+
+            dataToRender.forEach((dev, index) => {
+                const status = dev.lastStatus || dev.status;
+                if (status === "up") upTotal++; else downTotal++;
+
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td>${index + 1}</td>
+                    <td style="font-weight: 600;"><i class="fa-solid fa-network-wired" style="color: #6366f1; margin-left: 6px;"></i> ${dev.host}</td>
+                    <td>${dev.comment || dev.name || '-'}</td>
+                    <td style="color: #10b981; font-weight: bold;">${dev.upCount ?? 0}</td>
+                    <td style="color: #ef4444; font-weight: bold;">${dev.downCount ?? 0}</td>
+                    <td>
+                        <span class="status-badge ${status === 'up' ? 'status-up' : 'status-down'}">
+                            <i class="fa-solid ${status === 'up' ? 'fa-arrow-up' : 'fa-arrow-down'}"></i>
+                            ${status}
+                        </span>
+                    </td>
+                    <td style="color: #94a3b8; font-size: 12px;">${dev.since}</td>
+                `;
+                tbody.appendChild(row);
+            });
+
+            document.getElementById("total-count").innerText = dataToRender.length;
+            document.getElementById("up-count").innerText = upTotal;
+            document.getElementById("down-count").innerText = downTotal;
+            document.getElementById("items-count").innerText = `${dataToRender.length} items`;
+        }
+
+        function applyLogFilters() {
+            const searchText = document.getElementById("logSearchInput").value.toLowerCase();
+            const category = document.getElementById("logCategoryFilter").value;
+            const status = document.getElementById("logStatusFilter").value;
+
+            const filtered = logsList.filter(log => {
+                const logName = log.name || "";
+                const matchesSearch = log.host.toLowerCase().includes(searchText) || logName.toLowerCase().includes(searchText);
+                const matchesCategory = category === "all" || log.host.startsWith(category);
+                const matchesStatus = status === "all" || log.type === status;
+
+                return matchesSearch && matchesCategory && matchesStatus;
+            });
+
+            renderLogsTable(filtered);
+        }
+
+        function renderLogsTable(logsToRender = logsList) {
+            currentFilteredLogs = logsToRender;
+            const tbody = document.getElementById("logsTableBody");
+            tbody.innerHTML = "";
+
+            let logUpCount = 0;
+            let logDownCount = 0;
+
+            logsToRender.forEach(log => {
+                if (log.type === 'up') logUpCount++;
+                if (log.type === 'down') logDownCount++;
+            });
+
+            document.getElementById("log-total-count").innerText = logsToRender.length;
+            document.getElementById("log-up-count").innerText = logUpCount;
+            document.getElementById("log-down-count").innerText = logDownCount;
+            document.getElementById("log-items-count").innerText = `${logsToRender.length} items`;
+
+            if (logsToRender.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="6" style="text-align: center; color: #94a3b8;">لا توجد أحداث مسجلة مطابقة للبحث</td></tr>`;
+                return;
+            }
+
+            logsToRender.forEach((log, index) => {
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td>${index + 1}</td>
+                    <td style="color: #94a3b8; font-size: 12px;">${log.timestamp}</td>
+                    <td style="font-weight: 600;">${log.host}</td>
+                    <td>${log.name || '-'}</td>
+                    <td>
+                        <span class="status-badge ${log.type === 'up' ? 'status-up' : 'status-down'}">
+                            <i class="fa-solid ${log.type === 'up' ? 'fa-arrow-up' : 'fa-arrow-down'}"></i>
+                            ${log.type.toUpperCase()}
+                        </span>
+                    </td>
+                    <td>${log.message}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function applyFilters() {
+            const searchText = document.getElementById("searchInput").value.toLowerCase();
+            const category = document.getElementById("categoryFilter").value;
+            const status = document.getElementById("statusFilter").value;
+
+            const filtered = devices.filter(dev => {
+                const devStatus = dev.lastStatus || dev.status;
+                const devName = dev.comment || dev.name || "";
+                const matchesSearch = dev.host.toLowerCase().includes(searchText) || devName.toLowerCase().includes(searchText);
+                const matchesCategory = category === "all" || dev.host.startsWith(category);
+                const matchesStatus = status === "all" || devStatus === status;
+
+                return matchesSearch && matchesCategory && matchesStatus;
+            });
+
+            renderTable(filtered);
+        }
+
+        async function connectRouter() {
+            const rawHost = document.getElementById("routerIp").value;
+            const user = document.getElementById("routerUser").value;
+            const pass = document.getElementById("routerPass").value;
+            const statusDiv = document.getElementById("connectionStatus");
+
+            let host = rawHost;
+            let port = 2011;
+
+            if (rawHost.includes(":")) {
+                const parts = rawHost.split(":");
+                host = parts[0];
+                port = parseInt(parts[1], 10) || 2011;
+            }
+
+            statusDiv.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> جاري المزامنة وتسجيل الأحداث...`;
+            statusDiv.style.color = "#f59e0b";
+
+            try {
+                const response = await fetch('/api/netwatch', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ host: host, port: port, user: user, password: pass })
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    devices = data.devices;
+                    logsList = data.logs;
+
+                    localStorage.setItem("saved_netwatch_data", JSON.stringify(devices));
+                    localStorage.setItem("saved_netwatch_logs", JSON.stringify(logsList));
+
+                    statusDiv.innerHTML = `<i class="fa-solid fa-circle" style="font-size: 8px;"></i> تم المزامنة والتسجيل (${new Date().toLocaleTimeString('ar-EG')})`;
+                    statusDiv.style.color = "#10b981";
+                    
+                    applyFilters();
+                    applyLogFilters();
+                } else {
+                    throw new Error("فشل الاتصال");
+                }
+            } catch (err) {
+                statusDiv.innerHTML = `<i class="fa-solid fa-triangle-exclamation"></i> انقطع الاتصال للسيرفر (يتم العمل على البيانات المخزنة)`;
+                statusDiv.style.color = "#ef4444";
+                applyFilters();
+                applyLogFilters();
+            }
+        }
+
+        function clearLogs() {
+            if (confirm("هل أنت تأكد من مسح جميع سجلات الأحداث المخزنة؟")) {
+                logsList = [];
+                localStorage.setItem("saved_netwatch_logs", JSON.stringify([]));
+                applyLogFilters();
+            }
+        }
+
+        function toggleAutoRefresh() {
+            const isChecked = document.getElementById("autoRefreshToggle").checked;
+            const timerBadge = document.getElementById("timerCountdown");
+
+            if (isChecked) {
+                timerBadge.style.display = "inline";
+                remainingSeconds = REFRESH_TIME_SECONDS;
+                updateCountdownDisplay();
+
+                countdownInterval = setInterval(() => {
+                    remainingSeconds--;
+                    if (remainingSeconds <= 0) {
+                        remainingSeconds = REFRESH_TIME_SECONDS;
+                        connectRouter();
+                    }
+                    updateCountdownDisplay();
+                }, 1000);
+            } else {
+                clearInterval(countdownInterval);
+                timerBadge.style.display = "none";
+            }
+        }
+
+        function updateCountdownDisplay() {
+            const mins = Math.floor(remainingSeconds / 60);
+            const secs = remainingSeconds % 60;
+            document.getElementById("timerCountdown").innerText = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+        }
+
+        function exportExcel() {
+            if (currentFilteredDevices.length === 0) return alert("لا توجد بيانات للتصدير!");
+
+            const separator = ";";
+            let csvContent = "\uFEFF#;عنوان IP;اسم الجهاز / الوصف;عدد مرات التشغيل;عدد مرات الإطفاء;الحالة;منذ تاريخ\r\n";
+
+            currentFilteredDevices.forEach((d, index) => {
+                const row = [
+                    index + 1,
+                    `"${d.host}"`,
+                    `"${(d.comment || d.name || '-').replace(/"/g, '""')}"`,
+                    d.upCount ?? 0,
+                    d.downCount ?? 0,
+                    `"${(d.lastStatus || d.status).toUpperCase()}"`,
+                    `"${d.since}"`
+                ];
+                csvContent += row.join(separator) + "\r\n";
+            });
+
+            const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+            const link = document.createElement("a");
+            link.href = URL.createObjectURL(blob);
+            link.download = `Netwatch_Devices_${new Date().toISOString().slice(0, 10)}.csv`;
+            link.click();
+        }
+
+        function exportLogsExcel() {
+            if (currentFilteredLogs.length === 0) return alert("لا توجد سجلات للتصدير!");
+
+            const separator = ";";
+            let csvContent = "\uFEFF#;التاريخ والوقت;عنوان IP;اسم الجهاز;نوع الحدث;تفاصيل الحدث\r\n";
+
+            currentFilteredLogs.forEach((l, index) => {
+                const row = [
+                    index + 1,
+                    `"${l.timestamp}"`,
+                    `"${l.host}"`,
+                    `"${(l.name || '-').replace(/"/g, '""')}"`,
+                    `"${l.type.toUpperCase()}"`,
+                    `"${l.message.replace(/"/g, '""')}"`
+                ];
+                csvContent += row.join(separator) + "\r\n";
+            });
+
+            const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+            const link = document.createElement("a");
+            link.href = URL.createObjectURL(blob);
+            link.download = `Netwatch_Logs_${new Date().toISOString().slice(0, 10)}.csv`;
+            link.click();
+        }
+
+        renderTable();
+        applyLogFilters();
+        connectRouter();
+    </script>
+</body>
+</html>

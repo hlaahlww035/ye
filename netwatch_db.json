@@ -1,0 +1,5246 @@
+{
+  "devices": {
+    "192.168.88.1": {
+      "host": "192.168.88.1",
+      "comment": "الراوتر الرئيسي",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٦:٥٦:٢٢ م"
+    },
+    "192.168.94.10": {
+      "host": "192.168.94.10",
+      "comment": "سيرفر الراديوس",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٦:٥٦:٢٢ م"
+    },
+    "10.0.0.5": {
+      "host": "10.0.0.5",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 1,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.12": {
+      "host": "10.0.1.12",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٦:٥٦:٢٢ م"
+    },
+    "10.0.2.20": {
+      "host": "10.0.2.20",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 1,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.3": {
+      "host": "10.0.0.3",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.2": {
+      "host": "10.0.1.2",
+      "comment": "بدون اسم",
+      "upCount": 2,
+      "downCount": 1,
+      "lastStatus": "up",
+      "since": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٧:٠٤ ص"
+    },
+    "192.168.94.254": {
+      "host": "192.168.94.254",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.4": {
+      "host": "10.0.0.4",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 1,
+      "lastStatus": "down",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.7": {
+      "host": "10.0.0.7",
+      "comment": "بدون اسم",
+      "upCount": 2,
+      "downCount": 1,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٤٨:٠٦ م"
+    },
+    "10.0.0.8": {
+      "host": "10.0.0.8",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.9": {
+      "host": "10.0.0.9",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.10": {
+      "host": "10.0.0.10",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.11": {
+      "host": "10.0.0.11",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.14": {
+      "host": "10.0.0.14",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.15": {
+      "host": "10.0.0.15",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.16": {
+      "host": "10.0.0.16",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.19": {
+      "host": "10.0.0.19",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.18": {
+      "host": "10.0.0.18",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.2": {
+      "host": "10.0.0.2",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.21": {
+      "host": "10.0.0.21",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.22": {
+      "host": "10.0.0.22",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.25": {
+      "host": "10.0.0.25",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.26": {
+      "host": "10.0.0.26",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.27": {
+      "host": "10.0.0.27",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.20": {
+      "host": "10.0.0.20",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.30": {
+      "host": "10.0.0.30",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.31": {
+      "host": "10.0.0.31",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.32": {
+      "host": "10.0.0.32",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 1,
+      "lastStatus": "down",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.33": {
+      "host": "10.0.0.33",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 1,
+      "lastStatus": "down",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.34": {
+      "host": "10.0.0.34",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 1,
+      "lastStatus": "down",
+      "since": "١٦‏/٩‏/٢٠٢٦، ١٢:١٠:٠٥ ص"
+    },
+    "10.0.0.35": {
+      "host": "10.0.0.35",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.36": {
+      "host": "10.0.0.36",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.37": {
+      "host": "10.0.0.37",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.38": {
+      "host": "10.0.0.38",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.39": {
+      "host": "10.0.0.39",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.50": {
+      "host": "10.0.0.50",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.70": {
+      "host": "10.0.0.70",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.71": {
+      "host": "10.0.0.71",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.72": {
+      "host": "10.0.0.72",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.73": {
+      "host": "10.0.0.73",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.74": {
+      "host": "10.0.0.74",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.75": {
+      "host": "10.0.0.75",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.76": {
+      "host": "10.0.0.76",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.79": {
+      "host": "10.0.0.79",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.81": {
+      "host": "10.0.0.81",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.82": {
+      "host": "10.0.0.82",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.83": {
+      "host": "10.0.0.83",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.84": {
+      "host": "10.0.0.84",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.85": {
+      "host": "10.0.0.85",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.86": {
+      "host": "10.0.0.86",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.87": {
+      "host": "10.0.0.87",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.88": {
+      "host": "10.0.0.88",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.90": {
+      "host": "10.0.0.90",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.91": {
+      "host": "10.0.0.91",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.92": {
+      "host": "10.0.0.92",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.93": {
+      "host": "10.0.0.93",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.100": {
+      "host": "10.0.0.100",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.101": {
+      "host": "10.0.0.101",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.102": {
+      "host": "10.0.0.102",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.103": {
+      "host": "10.0.0.103",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.104": {
+      "host": "10.0.0.104",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.105": {
+      "host": "10.0.0.105",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.106": {
+      "host": "10.0.0.106",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.107": {
+      "host": "10.0.0.107",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.110": {
+      "host": "10.0.0.110",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.111": {
+      "host": "10.0.0.111",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.112": {
+      "host": "10.0.0.112",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.113": {
+      "host": "10.0.0.113",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.114": {
+      "host": "10.0.0.114",
+      "comment": "بدون اسم",
+      "upCount": 2,
+      "downCount": 1,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ١٠:٥٥:٣٩ م"
+    },
+    "10.0.0.115": {
+      "host": "10.0.0.115",
+      "comment": "بدون اسم",
+      "upCount": 2,
+      "downCount": 1,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ١٠:٥٥:٣٩ م"
+    },
+    "10.0.0.116": {
+      "host": "10.0.0.116",
+      "comment": "بدون اسم",
+      "upCount": 2,
+      "downCount": 1,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ١٠:٥٥:٣٩ م"
+    },
+    "10.0.0.119": {
+      "host": "10.0.0.119",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.120": {
+      "host": "10.0.0.120",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.121": {
+      "host": "10.0.0.121",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.122": {
+      "host": "10.0.0.122",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.123": {
+      "host": "10.0.0.123",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.124": {
+      "host": "10.0.0.124",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.125": {
+      "host": "10.0.0.125",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.126": {
+      "host": "10.0.0.126",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.128": {
+      "host": "10.0.0.128",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.129": {
+      "host": "10.0.0.129",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.130": {
+      "host": "10.0.0.130",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.132": {
+      "host": "10.0.0.132",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.133": {
+      "host": "10.0.0.133",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.134": {
+      "host": "10.0.0.134",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.135": {
+      "host": "10.0.0.135",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.136": {
+      "host": "10.0.0.136",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.137": {
+      "host": "10.0.0.137",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.138": {
+      "host": "10.0.0.138",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.139": {
+      "host": "10.0.0.139",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.140": {
+      "host": "10.0.0.140",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.99": {
+      "host": "10.0.0.99",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.23": {
+      "host": "10.0.0.23",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.6": {
+      "host": "10.0.0.6",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.28": {
+      "host": "10.0.0.28",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.41": {
+      "host": "10.0.0.41",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.42": {
+      "host": "10.0.0.42",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.49": {
+      "host": "10.0.0.49",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.54": {
+      "host": "10.0.0.54",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.55": {
+      "host": "10.0.0.55",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.56": {
+      "host": "10.0.0.56",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.57": {
+      "host": "10.0.0.57",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.58": {
+      "host": "10.0.0.58",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.59": {
+      "host": "10.0.0.59",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.60": {
+      "host": "10.0.0.60",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.61": {
+      "host": "10.0.0.61",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.62": {
+      "host": "10.0.0.62",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.64": {
+      "host": "10.0.0.64",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 1,
+      "lastStatus": "down",
+      "since": "١٦‏/٩‏/٢٠٢٦، ١٢:٣٧:١١ ص"
+    },
+    "10.0.0.65": {
+      "host": "10.0.0.65",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 1,
+      "lastStatus": "down",
+      "since": "١٦‏/٩‏/٢٠٢٦، ١٢:٣٧:١١ ص"
+    },
+    "10.0.0.77": {
+      "host": "10.0.0.77",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.80": {
+      "host": "10.0.0.80",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.89": {
+      "host": "10.0.0.89",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.94": {
+      "host": "10.0.0.94",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.95": {
+      "host": "10.0.0.95",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.118": {
+      "host": "10.0.0.118",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.144": {
+      "host": "10.0.0.144",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.141": {
+      "host": "10.0.0.141",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.142": {
+      "host": "10.0.0.142",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.143": {
+      "host": "10.0.0.143",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.147": {
+      "host": "10.0.0.147",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.2.251": {
+      "host": "10.0.2.251",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 0,
+      "lastStatus": "unknown",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.12": {
+      "host": "10.0.0.12",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.152": {
+      "host": "10.0.0.152",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.151": {
+      "host": "10.0.0.151",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.153": {
+      "host": "10.0.0.153",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.160": {
+      "host": "10.0.0.160",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.161": {
+      "host": "10.0.0.161",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.162": {
+      "host": "10.0.0.162",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.163": {
+      "host": "10.0.0.163",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.170": {
+      "host": "10.0.0.170",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.164": {
+      "host": "10.0.0.164",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.165": {
+      "host": "10.0.0.165",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.166": {
+      "host": "10.0.0.166",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.168": {
+      "host": "10.0.0.168",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.169": {
+      "host": "10.0.0.169",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.171": {
+      "host": "10.0.0.171",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.172": {
+      "host": "10.0.0.172",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.173": {
+      "host": "10.0.0.173",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.13": {
+      "host": "10.0.0.13",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.145": {
+      "host": "10.0.0.145",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.68": {
+      "host": "10.0.0.68",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.69": {
+      "host": "10.0.0.69",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.67": {
+      "host": "10.0.0.67",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.174": {
+      "host": "10.0.0.174",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.175": {
+      "host": "10.0.0.175",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.176": {
+      "host": "10.0.0.176",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.177": {
+      "host": "10.0.0.177",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.2.71": {
+      "host": "10.0.2.71",
+      "comment": "20",
+      "upCount": 0,
+      "downCount": 1,
+      "lastStatus": "down",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.2.46": {
+      "host": "10.0.2.46",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.2.52": {
+      "host": "10.0.2.52",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.2.53": {
+      "host": "10.0.2.53",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.2.54": {
+      "host": "10.0.2.54",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.2.55": {
+      "host": "10.0.2.55",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.2.56": {
+      "host": "10.0.2.56",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.2.57": {
+      "host": "10.0.2.57",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.2.62": {
+      "host": "10.0.2.62",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.148": {
+      "host": "10.0.0.148",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.190": {
+      "host": "10.0.0.190",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.2.63": {
+      "host": "10.0.2.63",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 1,
+      "lastStatus": "down",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.2.64": {
+      "host": "10.0.2.64",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 1,
+      "lastStatus": "down",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٣٦:٢٩ م"
+    },
+    "10.0.2.65": {
+      "host": "10.0.2.65",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.2.59": {
+      "host": "10.0.2.59",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 1,
+      "lastStatus": "down",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.191": {
+      "host": "10.0.0.191",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.178": {
+      "host": "10.0.0.178",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "172.1.1.220": {
+      "host": "172.1.1.220",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 0,
+      "lastStatus": "unknown",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.109": {
+      "host": "10.0.0.109",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.2.95": {
+      "host": "10.0.2.95",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.131": {
+      "host": "10.0.0.131",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "100.85.186.72": {
+      "host": "100.85.186.72",
+      "comment": "4",
+      "upCount": 0,
+      "downCount": 0,
+      "lastStatus": "unknown",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.183": {
+      "host": "10.0.0.183",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.181": {
+      "host": "10.0.0.181",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.182": {
+      "host": "10.0.0.182",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.192": {
+      "host": "10.0.0.192",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.0.180": {
+      "host": "10.0.0.180",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "192.168.94.1": {
+      "host": "192.168.94.1",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 0,
+      "lastStatus": "unknown",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.1.72.27": {
+      "host": "10.1.72.27",
+      "comment": "LK 72",
+      "upCount": 0,
+      "downCount": 0,
+      "lastStatus": "unknown",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "192.168.1.73": {
+      "host": "192.168.1.73",
+      "comment": "E4:8D:8C:0A:A4:4C",
+      "upCount": 0,
+      "downCount": 0,
+      "lastStatus": "unknown",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.7": {
+      "host": "10.0.1.7",
+      "comment": "بدون اسم",
+      "upCount": 2,
+      "downCount": 1,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٤٨:٠٦ م"
+    },
+    "10.0.1.8": {
+      "host": "10.0.1.8",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.10": {
+      "host": "10.0.1.10",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.15": {
+      "host": "10.0.1.15",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.18": {
+      "host": "10.0.1.18",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.19": {
+      "host": "10.0.1.19",
+      "comment": "بدون اسم",
+      "upCount": 2,
+      "downCount": 1,
+      "lastStatus": "up",
+      "since": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٧:٠٤ ص"
+    },
+    "10.0.1.22": {
+      "host": "10.0.1.22",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 0,
+      "lastStatus": "unknown",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.23": {
+      "host": "10.0.1.23",
+      "comment": "بدون اسم",
+      "upCount": 2,
+      "downCount": 1,
+      "lastStatus": "up",
+      "since": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٧:٠٤ ص"
+    },
+    "10.0.1.25": {
+      "host": "10.0.1.25",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.27": {
+      "host": "10.0.1.27",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.30": {
+      "host": "10.0.1.30",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.32": {
+      "host": "10.0.1.32",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 1,
+      "lastStatus": "down",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.34": {
+      "host": "10.0.1.34",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 1,
+      "lastStatus": "down",
+      "since": "١٦‏/٩‏/٢٠٢٦، ١٢:١٠:٠٥ ص"
+    },
+    "10.0.1.35": {
+      "host": "10.0.1.35",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.36": {
+      "host": "10.0.1.36",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.37": {
+      "host": "10.0.1.37",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.38": {
+      "host": "10.0.1.38",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.39": {
+      "host": "10.0.1.39",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.41": {
+      "host": "10.0.1.41",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.49": {
+      "host": "10.0.1.49",
+      "comment": "بدون اسم",
+      "upCount": 2,
+      "downCount": 1,
+      "lastStatus": "up",
+      "since": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٧:٠٤ ص"
+    },
+    "10.0.1.54": {
+      "host": "10.0.1.54",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.57": {
+      "host": "10.0.1.57",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.59": {
+      "host": "10.0.1.59",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.64": {
+      "host": "10.0.1.64",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 1,
+      "lastStatus": "down",
+      "since": "١٦‏/٩‏/٢٠٢٦، ١٢:٣٧:١١ ص"
+    },
+    "10.0.1.67": {
+      "host": "10.0.1.67",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.68": {
+      "host": "10.0.1.68",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.70": {
+      "host": "10.0.1.70",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.73": {
+      "host": "10.0.1.73",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.75": {
+      "host": "10.0.1.75",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.76": {
+      "host": "10.0.1.76",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.78": {
+      "host": "10.0.1.78",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 1,
+      "lastStatus": "down",
+      "since": "١٦‏/٩‏/٢٠٢٦، ١:٢٨:٥٧ ص"
+    },
+    "10.0.1.80": {
+      "host": "10.0.1.80",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.83": {
+      "host": "10.0.1.83",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.85": {
+      "host": "10.0.1.85",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.87": {
+      "host": "10.0.1.87",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.89": {
+      "host": "10.0.1.89",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.90": {
+      "host": "10.0.1.90",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.92": {
+      "host": "10.0.1.92",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.93": {
+      "host": "10.0.1.93",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.99": {
+      "host": "10.0.1.99",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.100": {
+      "host": "10.0.1.100",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.103": {
+      "host": "10.0.1.103",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.105": {
+      "host": "10.0.1.105",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.106": {
+      "host": "10.0.1.106",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.107": {
+      "host": "10.0.1.107",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.108": {
+      "host": "10.0.1.108",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.111": {
+      "host": "10.0.1.111",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.114": {
+      "host": "10.0.1.114",
+      "comment": "بدون اسم",
+      "upCount": 2,
+      "downCount": 1,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ١٠:٤٧:٢٢ م"
+    },
+    "10.0.1.118": {
+      "host": "10.0.1.118",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.120": {
+      "host": "10.0.1.120",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.124": {
+      "host": "10.0.1.124",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.122": {
+      "host": "10.0.1.122",
+      "comment": "بدون اسم",
+      "upCount": 2,
+      "downCount": 1,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ١٠:٤٧:١٠ م"
+    },
+    "10.0.1.126": {
+      "host": "10.0.1.126",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.128": {
+      "host": "10.0.1.128",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.131": {
+      "host": "10.0.1.131",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.132": {
+      "host": "10.0.1.132",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.134": {
+      "host": "10.0.1.134",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.137": {
+      "host": "10.0.1.137",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.140": {
+      "host": "10.0.1.140",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.143": {
+      "host": "10.0.1.143",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.147": {
+      "host": "10.0.1.147",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.151": {
+      "host": "10.0.1.151",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.169": {
+      "host": "10.0.1.169",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.160": {
+      "host": "10.0.1.160",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.161": {
+      "host": "10.0.1.161",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.163": {
+      "host": "10.0.1.163",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.164": {
+      "host": "10.0.1.164",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.165": {
+      "host": "10.0.1.165",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.168": {
+      "host": "10.0.1.168",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.178": {
+      "host": "10.0.1.178",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.171": {
+      "host": "10.0.1.171",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.174": {
+      "host": "10.0.1.174",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.176": {
+      "host": "10.0.1.176",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.180": {
+      "host": "10.0.1.180",
+      "comment": "بدون اسم",
+      "upCount": 2,
+      "downCount": 1,
+      "lastStatus": "up",
+      "since": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٧:٠٤ ص"
+    },
+    "10.0.1.190": {
+      "host": "10.0.1.190",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.192": {
+      "host": "10.0.1.192",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.249": {
+      "host": "10.0.1.249",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 1,
+      "lastStatus": "down",
+      "since": "١٥‏/٩‏/٢٠٢٦، ١١:٤٨:٣١ م"
+    },
+    "10.0.1.9": {
+      "host": "10.0.1.9",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.200": {
+      "host": "10.0.1.200",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.208": {
+      "host": "10.0.1.208",
+      "comment": "بدون اسم",
+      "upCount": 2,
+      "downCount": 1,
+      "lastStatus": "up",
+      "since": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٧:٠٤ ص"
+    },
+    "10.0.1.201": {
+      "host": "10.0.1.201",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.203": {
+      "host": "10.0.1.203",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.204": {
+      "host": "10.0.1.204",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.205": {
+      "host": "10.0.1.205",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.206": {
+      "host": "10.0.1.206",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "10.0.1.207": {
+      "host": "10.0.1.207",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    "192.168.88.8": {
+      "host": "192.168.88.8",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    "192.168.88.4": {
+      "host": "192.168.88.4",
+      "comment": "44",
+      "upCount": 0,
+      "downCount": 33,
+      "lastStatus": "unknown",
+      "since": "١٦‏/٩‏/٢٠٢٦، ١:٣٠:٠٧ ص"
+    },
+    "192.168.88.5": {
+      "host": "192.168.88.5",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 1,
+      "lastStatus": "down",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    "192.168.88.6": {
+      "host": "192.168.88.6",
+      "comment": "99999",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    "192.168.88.7": {
+      "host": "192.168.88.7",
+      "comment": "بدون اسم",
+      "upCount": 1,
+      "downCount": 0,
+      "lastStatus": "up",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    "89.189.75.43": {
+      "host": "89.189.75.43",
+      "comment": "02:80:CA;C7:68:C9",
+      "upCount": 0,
+      "downCount": 0,
+      "lastStatus": "unknown",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    "89.189.78.50": {
+      "host": "89.189.78.50",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 0,
+      "lastStatus": "unknown",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    "192.168.100.3": {
+      "host": "192.168.100.3",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 0,
+      "lastStatus": "unknown",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    "192.168.100.4": {
+      "host": "192.168.100.4",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 0,
+      "lastStatus": "unknown",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    "192.168.100.1": {
+      "host": "192.168.100.1",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 0,
+      "lastStatus": "unknown",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    "100.100.194.123": {
+      "host": "100.100.194.123",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 0,
+      "lastStatus": "unknown",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    "100.113.130.141": {
+      "host": "100.113.130.141",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 0,
+      "lastStatus": "unknown",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    "206.214.239.194": {
+      "host": "206.214.239.194",
+      "comment": "بدون اسم",
+      "upCount": 0,
+      "downCount": 0,
+      "lastStatus": "unknown",
+      "since": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    }
+  },
+  "logs": [
+    {
+      "id": 1789511407372.6965,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١:٣٠:٠٧ ص"
+    },
+    {
+      "id": 1789511407372.1936,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١:٣٠:٠٧ ص"
+    },
+    {
+      "id": 1789511337099.7842,
+      "host": "10.0.1.78",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١:٢٨:٥٧ ص"
+    },
+    {
+      "id": 1789511326404.1968,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١:٢٨:٤٦ ص"
+    },
+    {
+      "id": 1789511326404.138,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١:٢٨:٤٦ ص"
+    },
+    {
+      "id": 1789511325086.6743,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١:٢٨:٤٥ ص"
+    },
+    {
+      "id": 1789511325086.1694,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١:٢٨:٤٥ ص"
+    },
+    {
+      "id": 1789511321480.7073,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١:٢٨:٤١ ص"
+    },
+    {
+      "id": 1789511321480.31,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١:٢٨:٤١ ص"
+    },
+    {
+      "id": 1789508793381.5442,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٦:٣٣ ص"
+    },
+    {
+      "id": 1789508793380.561,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٦:٣٣ ص"
+    },
+    {
+      "id": 1789508791956.0889,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٦:٣١ ص"
+    },
+    {
+      "id": 1789508791956.792,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٦:٣١ ص"
+    },
+    {
+      "id": 1789508744757.6094,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٥:٤٤ ص"
+    },
+    {
+      "id": 1789508744757.8464,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٥:٤٤ ص"
+    },
+    {
+      "id": 1789508739372.5881,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٥:٣٩ ص"
+    },
+    {
+      "id": 1789508739372.1868,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٥:٣٩ ص"
+    },
+    {
+      "id": 1789508652315.597,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٤:١٢ ص"
+    },
+    {
+      "id": 1789508652315.5698,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٤:١٢ ص"
+    },
+    {
+      "id": 1789508606476.8154,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٣:٢٦ ص"
+    },
+    {
+      "id": 1789508606476.641,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٣:٢٦ ص"
+    },
+    {
+      "id": 1789508604647.9402,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٣:٢٤ ص"
+    },
+    {
+      "id": 1789508604647.6553,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٣:٢٤ ص"
+    },
+    {
+      "id": 1789508579762.0942,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٢:٥٩ ص"
+    },
+    {
+      "id": 1789508579762.1487,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٢:٥٩ ص"
+    },
+    {
+      "id": 1789508493850.8232,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤١:٣٣ ص"
+    },
+    {
+      "id": 1789508493850.338,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤١:٣٣ ص"
+    },
+    {
+      "id": 1789508449011.1782,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٠:٤٩ ص"
+    },
+    {
+      "id": 1789508449011.1658,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٤٠:٤٩ ص"
+    },
+    {
+      "id": 1789508361420.0483,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٣٩:٢١ ص"
+    },
+    {
+      "id": 1789508361420.712,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٣٩:٢١ ص"
+    },
+    {
+      "id": 1789508231932.3628,
+      "host": "10.0.1.64",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٣٧:١١ ص"
+    },
+    {
+      "id": 1789508231932.5752,
+      "host": "10.0.0.65",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٣٧:١١ ص"
+    },
+    {
+      "id": 1789508231932.1943,
+      "host": "10.0.0.64",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٣٧:١١ ص"
+    },
+    {
+      "id": 1789507497827.8347,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٢٤:٥٧ ص"
+    },
+    {
+      "id": 1789507497827.3884,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٢٤:٥٧ ص"
+    },
+    {
+      "id": 1789507277403.5835,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٢١:١٧ ص"
+    },
+    {
+      "id": 1789507277403.971,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٢١:١٧ ص"
+    },
+    {
+      "id": 1789507208111.528,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٢٠:٠٨ ص"
+    },
+    {
+      "id": 1789507208111.031,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٢٠:٠٨ ص"
+    },
+    {
+      "id": 1789507197935.7566,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:١٩:٥٧ ص"
+    },
+    {
+      "id": 1789507197935.941,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:١٩:٥٧ ص"
+    },
+    {
+      "id": 1789507163513.385,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:١٩:٢٣ ص"
+    },
+    {
+      "id": 1789507163513.0242,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:١٩:٢٣ ص"
+    },
+    {
+      "id": 1789507161574.9224,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:١٩:٢١ ص"
+    },
+    {
+      "id": 1789507161574.4597,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:١٩:٢١ ص"
+    },
+    {
+      "id": 1789507156263.0857,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:١٩:١٦ ص"
+    },
+    {
+      "id": 1789507156263.3997,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:١٩:١٦ ص"
+    },
+    {
+      "id": 1789507149289.9736,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:١٩:٠٩ ص"
+    },
+    {
+      "id": 1789507149289.111,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:١٩:٠٩ ص"
+    },
+    {
+      "id": 1789506664184.3445,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:١١:٠٤ ص"
+    },
+    {
+      "id": 1789506664184.731,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:١١:٠٤ ص"
+    },
+    {
+      "id": 1789506605822.832,
+      "host": "10.0.1.34",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:١٠:٠٥ ص"
+    },
+    {
+      "id": 1789506605822.8057,
+      "host": "10.0.0.34",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:١٠:٠٥ ص"
+    },
+    {
+      "id": 1789506444022.404,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٧:٢٤ ص"
+    },
+    {
+      "id": 1789506444022.032,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٧:٢٤ ص"
+    },
+    {
+      "id": 1789506424015.7239,
+      "host": "10.0.1.208",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تغيرت حالة الجهاز إلى (يعمل UP)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٧:٠٤ ص"
+    },
+    {
+      "id": 1789506424015.827,
+      "host": "10.0.1.180",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تغيرت حالة الجهاز إلى (يعمل UP)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٧:٠٤ ص"
+    },
+    {
+      "id": 1789506424015.9185,
+      "host": "10.0.1.49",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تغيرت حالة الجهاز إلى (يعمل UP)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٧:٠٤ ص"
+    },
+    {
+      "id": 1789506424015.4805,
+      "host": "10.0.1.23",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تغيرت حالة الجهاز إلى (يعمل UP)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٧:٠٤ ص"
+    },
+    {
+      "id": 1789506424015.2734,
+      "host": "10.0.1.19",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تغيرت حالة الجهاز إلى (يعمل UP)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٧:٠٤ ص"
+    },
+    {
+      "id": 1789506424015.8655,
+      "host": "10.0.1.2",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تغيرت حالة الجهاز إلى (يعمل UP)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٧:٠٤ ص"
+    },
+    {
+      "id": 1789506164700.1514,
+      "host": "10.0.1.208",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٢:٤٤ ص"
+    },
+    {
+      "id": 1789506164700.8062,
+      "host": "10.0.1.180",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٢:٤٤ ص"
+    },
+    {
+      "id": 1789506164700.103,
+      "host": "10.0.1.49",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٢:٤٤ ص"
+    },
+    {
+      "id": 1789506164700.1152,
+      "host": "10.0.1.23",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٢:٤٤ ص"
+    },
+    {
+      "id": 1789506164700.387,
+      "host": "10.0.1.19",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٢:٤٤ ص"
+    },
+    {
+      "id": 1789506164700.168,
+      "host": "10.0.1.2",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٦‏/٩‏/٢٠٢٦، ١٢:٠٢:٤٤ ص"
+    },
+    {
+      "id": 1789505311419.4802,
+      "host": "10.0.1.249",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١١:٤٨:٣١ م"
+    },
+    {
+      "id": 1789502139133.9187,
+      "host": "10.0.0.116",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تغيرت حالة الجهاز إلى (يعمل UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١٠:٥٥:٣٩ م"
+    },
+    {
+      "id": 1789502139133.098,
+      "host": "10.0.0.115",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تغيرت حالة الجهاز إلى (يعمل UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١٠:٥٥:٣٩ م"
+    },
+    {
+      "id": 1789502139133.1946,
+      "host": "10.0.0.114",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تغيرت حالة الجهاز إلى (يعمل UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١٠:٥٥:٣٩ م"
+    },
+    {
+      "id": 1789501642677.1033,
+      "host": "10.0.1.114",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تغيرت حالة الجهاز إلى (يعمل UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١٠:٤٧:٢٢ م"
+    },
+    {
+      "id": 1789501630312.4438,
+      "host": "10.0.1.122",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تغيرت حالة الجهاز إلى (يعمل UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١٠:٤٧:١٠ م"
+    },
+    {
+      "id": 1789501630312.2515,
+      "host": "10.0.1.114",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١٠:٤٧:١٠ م"
+    },
+    {
+      "id": 1789501630312.577,
+      "host": "10.0.0.116",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١٠:٤٧:١٠ م"
+    },
+    {
+      "id": 1789501630312.1917,
+      "host": "10.0.0.115",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١٠:٤٧:١٠ م"
+    },
+    {
+      "id": 1789501630312.4707,
+      "host": "10.0.0.114",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١٠:٤٧:١٠ م"
+    },
+    {
+      "id": 1789500826129.1782,
+      "host": "10.0.1.122",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١٠:٣٣:٤٦ م"
+    },
+    {
+      "id": 1789500749841.2156,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١٠:٣٢:٢٩ م"
+    },
+    {
+      "id": 1789500749841.3733,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١٠:٣٢:٢٩ م"
+    },
+    {
+      "id": 1789500644888.8574,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١٠:٣٠:٤٤ م"
+    },
+    {
+      "id": 1789500644888.841,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١٠:٣٠:٤٤ م"
+    },
+    {
+      "id": 1789500101298.8884,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١٠:٢١:٤١ م"
+    },
+    {
+      "id": 1789500101298.1985,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ١٠:٢١:٤١ م"
+    },
+    {
+      "id": 1789498086079.2192,
+      "host": "10.0.1.7",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تغيرت حالة الجهاز إلى (يعمل UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٤٨:٠٦ م"
+    },
+    {
+      "id": 1789498086079.931,
+      "host": "10.0.0.7",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تغيرت حالة الجهاز إلى (يعمل UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٤٨:٠٦ م"
+    },
+    {
+      "id": 1789497874254.3306,
+      "host": "10.0.1.7",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٤٤:٣٤ م"
+    },
+    {
+      "id": 1789497874254.085,
+      "host": "10.0.0.7",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٤٤:٣٤ م"
+    },
+    {
+      "id": 1789497555422.2942,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٣٩:١٥ م"
+    },
+    {
+      "id": 1789497555422.2876,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٣٩:١٥ م"
+    },
+    {
+      "id": 1789497389189.5378,
+      "host": "10.0.2.64",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٣٦:٢٩ م"
+    },
+    {
+      "id": 1789497158825.6785,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٣٢:٣٨ م"
+    },
+    {
+      "id": 1789497158825.344,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٣٢:٣٨ م"
+    },
+    {
+      "id": 1789497139209.6792,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٣٢:١٩ م"
+    },
+    {
+      "id": 1789497139209.8423,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٣٢:١٩ م"
+    },
+    {
+      "id": 1789497026450.9104,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٣٠:٢٦ م"
+    },
+    {
+      "id": 1789497026449.608,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٣٠:٢٦ م"
+    },
+    {
+      "id": 1789496017555.9646,
+      "host": "192.168.88.4",
+      "name": "44",
+      "type": "unknown",
+      "message": "تغيرت حالة الجهاز إلى (متوقف DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    {
+      "id": 1789496017555.8833,
+      "host": "206.214.239.194",
+      "name": "بدون اسم",
+      "type": "unknown",
+      "message": "تم إضافة الجهاز للنظام بحالة (UNKNOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    {
+      "id": 1789496017555.131,
+      "host": "100.113.130.141",
+      "name": "بدون اسم",
+      "type": "unknown",
+      "message": "تم إضافة الجهاز للنظام بحالة (UNKNOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    {
+      "id": 1789496017555.176,
+      "host": "100.100.194.123",
+      "name": "بدون اسم",
+      "type": "unknown",
+      "message": "تم إضافة الجهاز للنظام بحالة (UNKNOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    {
+      "id": 1789496017555.1797,
+      "host": "192.168.100.1",
+      "name": "بدون اسم",
+      "type": "unknown",
+      "message": "تم إضافة الجهاز للنظام بحالة (UNKNOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    {
+      "id": 1789496017555.522,
+      "host": "192.168.100.4",
+      "name": "بدون اسم",
+      "type": "unknown",
+      "message": "تم إضافة الجهاز للنظام بحالة (UNKNOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    {
+      "id": 1789496017555.3967,
+      "host": "192.168.100.3",
+      "name": "بدون اسم",
+      "type": "unknown",
+      "message": "تم إضافة الجهاز للنظام بحالة (UNKNOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    {
+      "id": 1789496017555.0793,
+      "host": "89.189.78.50",
+      "name": "بدون اسم",
+      "type": "unknown",
+      "message": "تم إضافة الجهاز للنظام بحالة (UNKNOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    {
+      "id": 1789496017555.6704,
+      "host": "89.189.75.43",
+      "name": "02:80:CA;C7:68:C9",
+      "type": "unknown",
+      "message": "تم إضافة الجهاز للنظام بحالة (UNKNOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    {
+      "id": 1789496017555.3662,
+      "host": "192.168.88.7",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    {
+      "id": 1789496017555.7058,
+      "host": "192.168.88.6",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    {
+      "id": 1789496017555.2825,
+      "host": "192.168.88.5",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تم إضافة الجهاز للنظام بحالة (DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    {
+      "id": 1789496017555.487,
+      "host": "192.168.88.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تم إضافة الجهاز للنظام بحالة (DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    {
+      "id": 1789496017555.7988,
+      "host": "192.168.88.8",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:١٣:٣٧ م"
+    },
+    {
+      "id": 1789495241109.0332,
+      "host": "10.0.1.207",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.103,
+      "host": "10.0.1.206",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.4438,
+      "host": "10.0.1.205",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.8855,
+      "host": "10.0.1.204",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.893,
+      "host": "10.0.1.203",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.1472,
+      "host": "10.0.1.201",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.3032,
+      "host": "10.0.1.208",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.517,
+      "host": "10.0.1.200",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.8853,
+      "host": "10.0.1.9",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.7725,
+      "host": "10.0.1.249",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.192,
+      "host": "10.0.1.192",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.6895,
+      "host": "10.0.1.190",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.9526,
+      "host": "10.0.1.180",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.893,
+      "host": "10.0.1.176",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.206,
+      "host": "10.0.1.174",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.5771,
+      "host": "10.0.1.171",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.5713,
+      "host": "10.0.1.178",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.9727,
+      "host": "10.0.1.168",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.5938,
+      "host": "10.0.1.165",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.9824,
+      "host": "10.0.1.164",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.8643,
+      "host": "10.0.1.163",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.1816,
+      "host": "10.0.1.161",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.4417,
+      "host": "10.0.1.160",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.22,
+      "host": "10.0.1.169",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.9785,
+      "host": "10.0.1.151",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.9258,
+      "host": "10.0.1.147",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.1113,
+      "host": "10.0.1.143",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.5737,
+      "host": "10.0.1.140",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.6633,
+      "host": "10.0.1.137",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.1511,
+      "host": "10.0.1.134",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.3225,
+      "host": "10.0.1.132",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.686,
+      "host": "10.0.1.131",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.2078,
+      "host": "10.0.1.128",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.0103,
+      "host": "10.0.1.126",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.487,
+      "host": "10.0.1.122",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.4868,
+      "host": "10.0.1.124",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.859,
+      "host": "10.0.1.120",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.7502,
+      "host": "10.0.1.118",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.9734,
+      "host": "10.0.1.114",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.2988,
+      "host": "10.0.1.111",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.3784,
+      "host": "10.0.1.108",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.8503,
+      "host": "10.0.1.107",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.2778,
+      "host": "10.0.1.106",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.7942,
+      "host": "10.0.1.105",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.1267,
+      "host": "10.0.1.103",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.4397,
+      "host": "10.0.1.100",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.101,
+      "host": "10.0.1.99",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.5056,
+      "host": "10.0.1.93",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.4697,
+      "host": "10.0.1.92",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.7468,
+      "host": "10.0.1.90",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.056,
+      "host": "10.0.1.89",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.4788,
+      "host": "10.0.1.87",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.529,
+      "host": "10.0.1.85",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.1475,
+      "host": "10.0.1.83",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.9343,
+      "host": "10.0.1.80",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.4126,
+      "host": "10.0.1.78",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.1257,
+      "host": "10.0.1.76",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.4788,
+      "host": "10.0.1.75",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.059,
+      "host": "10.0.1.73",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.9375,
+      "host": "10.0.1.70",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.4868,
+      "host": "10.0.1.68",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.4758,
+      "host": "10.0.1.67",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.399,
+      "host": "10.0.1.64",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.395,
+      "host": "10.0.1.59",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.3162,
+      "host": "10.0.1.57",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.4297,
+      "host": "10.0.1.54",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241109.299,
+      "host": "10.0.1.49",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.7,
+      "host": "10.0.1.41",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.1392,
+      "host": "10.0.1.39",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.2373,
+      "host": "10.0.1.38",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.4604,
+      "host": "10.0.1.37",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.4736,
+      "host": "10.0.1.36",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8572,
+      "host": "10.0.1.35",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.3577,
+      "host": "10.0.1.34",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8975,
+      "host": "10.0.1.32",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تم إضافة الجهاز للنظام بحالة (DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.127,
+      "host": "10.0.1.30",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6716,
+      "host": "10.0.1.27",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.2483,
+      "host": "10.0.1.25",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.571,
+      "host": "10.0.1.23",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.5212,
+      "host": "10.0.1.22",
+      "name": "بدون اسم",
+      "type": "unknown",
+      "message": "تم إضافة الجهاز للنظام بحالة (UNKNOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6094,
+      "host": "10.0.1.19",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.7002,
+      "host": "10.0.1.18",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.7869,
+      "host": "10.0.1.15",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.1873,
+      "host": "10.0.1.10",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.654,
+      "host": "10.0.1.8",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6194,
+      "host": "10.0.1.7",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.5544,
+      "host": "192.168.1.73",
+      "name": "E4:8D:8C:0A:A4:4C",
+      "type": "unknown",
+      "message": "تم إضافة الجهاز للنظام بحالة (UNKNOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.447,
+      "host": "10.1.72.27",
+      "name": "LK 72",
+      "type": "unknown",
+      "message": "تم إضافة الجهاز للنظام بحالة (UNKNOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.2522,
+      "host": "192.168.94.1",
+      "name": "بدون اسم",
+      "type": "unknown",
+      "message": "تم إضافة الجهاز للنظام بحالة (UNKNOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.2883,
+      "host": "10.0.0.180",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6995,
+      "host": "10.0.0.192",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9866,
+      "host": "10.0.0.182",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.5293,
+      "host": "10.0.0.181",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8503,
+      "host": "10.0.0.183",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.701,
+      "host": "100.85.186.72",
+      "name": "02:80:CA;C7:68:C9",
+      "type": "unknown",
+      "message": "تم إضافة الجهاز للنظام بحالة (UNKNOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9978,
+      "host": "10.0.0.131",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9517,
+      "host": "10.0.2.95",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.7703,
+      "host": "10.0.0.109",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9749,
+      "host": "172.1.1.220",
+      "name": "بدون اسم",
+      "type": "unknown",
+      "message": "تم إضافة الجهاز للنظام بحالة (UNKNOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6091,
+      "host": "10.0.0.178",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.3208,
+      "host": "10.0.0.191",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.009,
+      "host": "10.0.2.59",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تم إضافة الجهاز للنظام بحالة (DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.0552,
+      "host": "10.0.2.65",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.3574,
+      "host": "10.0.2.64",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6228,
+      "host": "10.0.2.63",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تم إضافة الجهاز للنظام بحالة (DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.1235,
+      "host": "10.0.0.190",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.2021,
+      "host": "10.0.0.148",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9001,
+      "host": "10.0.2.62",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9834,
+      "host": "10.0.2.57",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.405,
+      "host": "10.0.2.56",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.1501,
+      "host": "10.0.2.55",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6748,
+      "host": "10.0.2.54",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9512,
+      "host": "10.0.2.53",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.2815,
+      "host": "10.0.2.52",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6956,
+      "host": "10.0.2.46",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.1233,
+      "host": "10.0.2.71",
+      "name": "20",
+      "type": "down",
+      "message": "تم إضافة الجهاز للنظام بحالة (DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.5542,
+      "host": "10.0.0.177",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.1216,
+      "host": "10.0.0.176",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.1772,
+      "host": "10.0.0.175",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.2239,
+      "host": "10.0.0.174",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.4993,
+      "host": "10.0.0.67",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8152,
+      "host": "10.0.0.69",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.577,
+      "host": "10.0.0.68",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9412,
+      "host": "10.0.0.145",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.964,
+      "host": "10.0.2.20",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تغيرت حالة الجهاز إلى (يعمل UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.2673,
+      "host": "10.0.0.5",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تغيرت حالة الجهاز إلى (يعمل UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.3093,
+      "host": "10.0.0.13",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6973,
+      "host": "10.0.0.173",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.3926,
+      "host": "10.0.0.172",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8225,
+      "host": "10.0.0.171",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.5479,
+      "host": "10.0.0.169",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9707,
+      "host": "10.0.0.168",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.2778,
+      "host": "10.0.0.166",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.914,
+      "host": "10.0.0.165",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.4587,
+      "host": "10.0.0.164",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.133,
+      "host": "10.0.0.170",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.7644,
+      "host": "10.0.0.163",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.0857,
+      "host": "10.0.0.162",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.946,
+      "host": "10.0.0.161",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.11,
+      "host": "10.0.0.160",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.3752,
+      "host": "10.0.0.153",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9043,
+      "host": "10.0.0.151",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.2947,
+      "host": "10.0.0.152",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.5415,
+      "host": "10.0.0.12",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.1052,
+      "host": "10.0.2.251",
+      "name": "بدون اسم",
+      "type": "unknown",
+      "message": "تم إضافة الجهاز للنظام بحالة (UNKNOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.924,
+      "host": "10.0.0.147",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.3313,
+      "host": "10.0.0.143",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.5757,
+      "host": "10.0.0.142",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.476,
+      "host": "10.0.0.141",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.7288,
+      "host": "10.0.0.144",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.695,
+      "host": "10.0.0.118",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.7073,
+      "host": "10.0.0.95",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9348,
+      "host": "10.0.0.94",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9907,
+      "host": "10.0.0.89",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.411,
+      "host": "10.0.0.80",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.702,
+      "host": "10.0.0.77",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.475,
+      "host": "10.0.0.65",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8306,
+      "host": "10.0.0.64",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.0498,
+      "host": "10.0.0.62",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.257,
+      "host": "10.0.0.61",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.7266,
+      "host": "10.0.0.60",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8718,
+      "host": "10.0.0.59",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.516,
+      "host": "10.0.0.58",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.1257,
+      "host": "10.0.0.57",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.2046,
+      "host": "10.0.0.56",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8596,
+      "host": "10.0.0.55",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6926,
+      "host": "10.0.0.54",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9783,
+      "host": "10.0.0.49",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.907,
+      "host": "10.0.0.42",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9224,
+      "host": "10.0.0.41",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.3704,
+      "host": "10.0.0.28",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.948,
+      "host": "10.0.0.6",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.7192,
+      "host": "10.0.0.23",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.4275,
+      "host": "10.0.0.99",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.737,
+      "host": "10.0.0.140",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6233,
+      "host": "10.0.0.139",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.524,
+      "host": "10.0.0.138",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8796,
+      "host": "10.0.0.137",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8752,
+      "host": "10.0.0.136",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.4065,
+      "host": "10.0.0.135",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.7666,
+      "host": "10.0.0.134",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6685,
+      "host": "10.0.0.133",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.061,
+      "host": "10.0.0.132",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6074,
+      "host": "10.0.0.130",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.677,
+      "host": "10.0.0.129",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.5212,
+      "host": "10.0.0.128",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.5076,
+      "host": "10.0.0.126",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.171,
+      "host": "10.0.0.125",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8682,
+      "host": "10.0.0.124",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6033,
+      "host": "10.0.0.123",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6826,
+      "host": "10.0.0.122",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.151,
+      "host": "10.0.0.121",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.2822,
+      "host": "10.0.0.120",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.38,
+      "host": "10.0.0.119",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8196,
+      "host": "10.0.0.116",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.5225,
+      "host": "10.0.0.115",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8564,
+      "host": "10.0.0.114",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9438,
+      "host": "10.0.0.113",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.447,
+      "host": "10.0.0.112",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9575,
+      "host": "10.0.0.111",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.703,
+      "host": "10.0.0.110",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6685,
+      "host": "10.0.0.107",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.1572,
+      "host": "10.0.0.106",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6013,
+      "host": "10.0.0.105",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9136,
+      "host": "10.0.0.104",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6323,
+      "host": "10.0.0.103",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.295,
+      "host": "10.0.0.102",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.1787,
+      "host": "10.0.0.101",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.4285,
+      "host": "10.0.0.100",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9172,
+      "host": "10.0.0.93",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9824,
+      "host": "10.0.0.92",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9268,
+      "host": "10.0.0.91",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8684,
+      "host": "10.0.0.90",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9673,
+      "host": "10.0.0.88",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.7065,
+      "host": "10.0.0.87",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6604,
+      "host": "10.0.0.86",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.1113,
+      "host": "10.0.0.85",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.71,
+      "host": "10.0.0.84",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.113,
+      "host": "10.0.0.83",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.252,
+      "host": "10.0.0.82",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.7126,
+      "host": "10.0.0.81",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.1523,
+      "host": "10.0.0.79",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.4656,
+      "host": "10.0.0.76",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.2195,
+      "host": "10.0.0.75",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.7463,
+      "host": "10.0.0.74",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.0708,
+      "host": "10.0.0.73",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.4294,
+      "host": "10.0.0.72",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6118,
+      "host": "10.0.0.71",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.635,
+      "host": "10.0.0.70",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.3416,
+      "host": "10.0.0.50",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.7695,
+      "host": "10.0.0.39",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.5737,
+      "host": "10.0.0.38",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8845,
+      "host": "10.0.0.37",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.5989,
+      "host": "10.0.0.36",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9707,
+      "host": "10.0.0.35",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.305,
+      "host": "10.0.0.34",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.746,
+      "host": "10.0.0.33",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تم إضافة الجهاز للنظام بحالة (DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.4114,
+      "host": "10.0.0.32",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تم إضافة الجهاز للنظام بحالة (DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.363,
+      "host": "10.0.0.31",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.2803,
+      "host": "10.0.0.30",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.867,
+      "host": "10.0.0.20",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6309,
+      "host": "10.0.0.27",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.52,
+      "host": "10.0.0.26",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6047,
+      "host": "10.0.0.25",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.0664,
+      "host": "10.0.0.22",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9412,
+      "host": "10.0.0.21",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8857,
+      "host": "10.0.0.2",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.9595,
+      "host": "10.0.0.18",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.1436,
+      "host": "10.0.0.19",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6575,
+      "host": "10.0.0.16",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.0413,
+      "host": "10.0.0.15",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8784,
+      "host": "10.0.0.14",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.3186,
+      "host": "10.0.0.11",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.791,
+      "host": "10.0.0.10",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.2686,
+      "host": "10.0.0.9",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.2158,
+      "host": "10.0.0.8",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.1587,
+      "host": "10.0.0.7",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.6143,
+      "host": "10.0.0.4",
+      "name": "بدون اسم",
+      "type": "down",
+      "message": "تم إضافة الجهاز للنظام بحالة (DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.4165,
+      "host": "192.168.94.254",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8896,
+      "host": "10.0.1.2",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789495241108.8506,
+      "host": "10.0.0.3",
+      "name": "بدون اسم",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٩:٠٠:٤١ م"
+    },
+    {
+      "id": 1789487782836.8604,
+      "host": "10.0.2.20",
+      "name": "Access Point - الصالة",
+      "type": "down",
+      "message": "تم إضافة الجهاز للنظام بحالة (DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٦:٥٦:٢٢ م"
+    },
+    {
+      "id": 1789487782836.9202,
+      "host": "10.0.1.12",
+      "name": "ربط M5 للموقع B",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٦:٥٦:٢٢ م"
+    },
+    {
+      "id": 1789487782836.6572,
+      "host": "10.0.0.5",
+      "name": "محطة M2 الرئيسية",
+      "type": "down",
+      "message": "تم إضافة الجهاز للنظام بحالة (DOWN)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٦:٥٦:٢٢ م"
+    },
+    {
+      "id": 1789487782836.2354,
+      "host": "192.168.94.10",
+      "name": "سيرفر الراديوس",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٦:٥٦:٢٢ م"
+    },
+    {
+      "id": 1789487782836.4678,
+      "host": "192.168.88.1",
+      "name": "الراوتر الرئيسي",
+      "type": "up",
+      "message": "تم إضافة الجهاز للنظام بحالة (UP)",
+      "timestamp": "١٥‏/٩‏/٢٠٢٦، ٦:٥٦:٢٢ م"
+    }
+  ]
+}
