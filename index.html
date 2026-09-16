@@ -75,7 +75,6 @@
         input:checked + .slider:before { transform: translateX(18px); }
         .timer-badge { font-size: 11px; color: #f59e0b; font-weight: bold; display: none; }
 
-        /* شريط إعدادات التلجرام */
         .telegram-bar { background-color: #1e293b; padding: 8px 20px; border-bottom: 1px solid #334155; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; font-size: 12px; }
     </style>
 </head>
@@ -115,14 +114,12 @@
             <div id="connectionStatus" style="font-size: 12px; color: #94a3b8;"><i class="fa-solid fa-circle" style="font-size: 8px;"></i> غير متصل بالميكروتيك</div>
         </div>
 
-        <!-- شريط إعدادات التلجرام -->
+        <!-- شريط حالة التلجرام -->
         <div class="telegram-bar">
-            <span style="color: #38bdf8; font-weight: bold;"><i class="fa-brands fa-telegram"></i> إعدادات التلجرام:</span>
-            <div class="input-group"><label>Bot Token:</label><input type="password" id="telegramToken" placeholder="8672540529:AAFTrN2HK-Vk2DMNME2PomH81v2-Rf85qBI" style="width: 140px;"></div>
-            <div class="input-group"><label>Chat ID:</label><input type="password" id="telegramChatId" placeholder="-1003934734599" style="width: 100px;"></div>
+            <span style="color: #38bdf8; font-weight: bold;"><i class="fa-brands fa-telegram"></i> حالة إشعارات التلجرام:</span>
             <div class="auto-refresh-box" style="padding: 3px 8px;">
-                <label class="switch"><input type="checkbox" id="telegramNotifyToggle"><span class="slider"></span></label>
-                <span>تفعيل الإشعارات</span>
+                <label class="switch"><input type="checkbox" id="telegramNotifyToggle" checked><span class="slider"></span></label>
+                <span>مفعلة تلقائياً</span>
             </div>
             <button class="btn btn-info" style="padding: 4px 10px; font-size: 11px;" onclick="testTelegram()"><i class="fa-solid fa-paper-plane"></i> تجربة الإشعار</button>
         </div>
@@ -233,6 +230,11 @@
     </div>
 
     <script>
+        // ==================== إعدادات التلجرام الثابتة ====================
+        const TELEGRAM_BOT_TOKEN = "8672540529:AAFTrN2HK-Vk2DMNME2PomH81v2-Rf85qBI";
+        const TELEGRAM_CHAT_ID = "-1003934734599";
+        // ================================================================
+
         document.getElementById('toggleSidebar').addEventListener('click', function() {
             document.getElementById('sidebar').classList.toggle('collapsed');
         });
@@ -242,7 +244,7 @@
         let currentFilteredDevices = [];
         let currentFilteredLogs = [];
         let isConnected = false;
-        let previousStatuses = {}; // حفظ الحالات السابقة لمقارنتها بالجديدة
+        let previousStatuses = {};
 
         let countdownInterval = null;
         const REFRESH_TIME_SECONDS = 120;
@@ -259,21 +261,19 @@
             }
         }
 
-        // --- دالة إرسال التلجرام ---
+        // --- دالة إرسال التلجرام تلقائياً ---
         async function sendTelegramMessage(text) {
-            const token = document.getElementById('telegramToken').value.trim();
-            const chatId = document.getElementById('telegramChatId').value.trim();
             const isEnabled = document.getElementById('telegramNotifyToggle').checked;
 
-            if (!isEnabled || !token || !chatId) return;
+            if (!isEnabled || !TELEGRAM_BOT_TOKEN || !TELEGRAM_CHAT_ID || TELEGRAM_BOT_TOKEN.includes("ضع_الـ")) return;
 
-            const url = `https://api.telegram.org/bot${token}/sendMessage`;
+            const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
             try {
                 await fetch(url, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
-                        chat_id: chatId,
+                        chat_id: TELEGRAM_CHAT_ID,
                         text: text,
                         parse_mode: 'HTML'
                     })
@@ -284,26 +284,23 @@
         }
 
         async function testTelegram() {
-            const token = document.getElementById('telegramToken').value.trim();
-            const chatId = document.getElementById('telegramChatId').value.trim();
-            
-            if (!token || !chatId) {
-                alert("يرجى إدخال Bot Token و Chat ID أولاً!");
+            if (!TELEGRAM_BOT_TOKEN || !TELEGRAM_CHAT_ID || TELEGRAM_BOT_TOKEN.includes("ضع_الـ")) {
+                alert("يرجى إدخال قيم Bot Token و Chat ID الصحيحة داخل الكود أولاً!");
                 return;
             }
 
-            const testMessage = `🤖 <b>اختبار إشعارات Netwatch</b>\n\nنظام الإشعارات يعمل بنجاح! ✅`;
-            const url = `https://api.telegram.org/bot${token}/sendMessage`;
+            const testMessage = `🤖 <b>اختبار إشعارات Netwatch</b>\n\nنظام الإشعارات القائم على القيم الثابتة يعمل بنجاح! ✅`;
+            const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
 
             try {
                 const res = await fetch(url, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ chat_id: chatId, text: testMessage, parse_mode: 'HTML' })
+                    body: JSON.stringify({ chat_id: TELEGRAM_CHAT_ID, text: testMessage, parse_mode: 'HTML' })
                 });
                 const data = await res.json();
                 if (data.ok) {
-                    alert("تم إرسال رسالة الاختبار بنجاح!");
+                    alert("تم إرسال رسالة الاختبار بنجاح إلى التلجرام!");
                 } else {
                     alert("فشل الإرسال: " + data.description);
                 }
@@ -465,7 +462,7 @@
                     devices = data.devices || [];
                     logsList = data.logs || [];
 
-                    // التحقق من تغير الحالة لإرسال الإشعارات
+                    // التحقق من تغير حالة كل جهاز ومقارنتها بالحالة السابقة
                     devices.forEach(dev => {
                         const currentStatus = dev.lastStatus || dev.status;
                         const prevStatus = previousStatuses[dev.host];
