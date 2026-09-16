@@ -41,7 +41,7 @@
         .input-group select { cursor: pointer; padding: 2px 0; }
         .input-group select option { background-color: #1e293b; color: white; }
         
-        .btn { padding: 7px 16px; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; display: flex; align-items: center; gap: 8px; font-size: 13px; }
+        .btn { padding: 7px 16px; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; display: flex; align-items: center; gap: 8px; font-size: 13px; transition: background-color 0.2s; }
         .btn-primary { background-color: #4f46e5; color: white; }
         .btn-success { background-color: #10b981; color: white; }
         .btn-info { background-color: #0284c7; color: white; }
@@ -106,7 +106,8 @@
                 </div>
                 <div class="input-group"><label>User:</label><input type="password" id="routerUser" value="asd201" style="width: 90px;"></div>
                 <div class="input-group"><label>Pass:</label><input type="password" id="routerPass" value="asd2011**" style="width: 90px;"></div>
-                <button class="btn btn-primary" onclick="connectRouter()"><i class="fa-solid fa-plug"></i> اتصل بالميكروتيك</button>
+                <!-- زر موحد للاتصال والقطع -->
+                <button class="btn btn-primary" id="connectBtn" onclick="toggleConnection()"><i class="fa-solid fa-plug"></i> اتصل بالميكروتيك</button>
             </div>
             <div id="connectionStatus" style="font-size: 12px; color: #94a3b8;"><i class="fa-solid fa-circle" style="font-size: 8px;"></i> غير متصل بالميكروتيك</div>
         </div>
@@ -226,6 +227,7 @@
         let logsList = [];
         let currentFilteredDevices = [];
         let currentFilteredLogs = [];
+        let isConnected = false; // تتبع حالة الاتصال
 
         let countdownInterval = null;
         const REFRESH_TIME_SECONDS = 120;
@@ -353,11 +355,21 @@
             renderTable(filtered);
         }
 
+        // التبديل بين الاتصال والقطع بنفس الزر
+        function toggleConnection() {
+            if (isConnected) {
+                disconnectRouter();
+            } else {
+                connectRouter();
+            }
+        }
+
         async function connectRouter() {
             const rawHost = document.getElementById("routerIp").value;
             const user = document.getElementById("routerUser").value;
             const pass = document.getElementById("routerPass").value;
             const statusDiv = document.getElementById("connectionStatus");
+            const btn = document.getElementById("connectBtn");
 
             let host = rawHost;
             let port = 2011;
@@ -386,19 +398,45 @@
                     statusDiv.innerHTML = `<i class="fa-solid fa-circle" style="font-size: 8px;"></i> تم المزامنة والتسجيل (${new Date().toLocaleTimeString('ar-EG')})`;
                     statusDiv.style.color = "#10b981";
                     
+                    // تحويل حالة الزر إلى قطع الاتصال
+                    isConnected = true;
+                    btn.className = "btn btn-danger";
+                    btn.innerHTML = `<i class="fa-solid fa-plug-circle-xmark"></i> قطع الاتصال`;
+
                     applyFilters();
                     applyLogFilters();
                 } else {
                     throw new Error("فشل الاتصال");
                 }
             } catch (err) {
-                devices = [];
-                logsList = [];
+                disconnectRouter();
                 statusDiv.innerHTML = `<i class="fa-solid fa-triangle-exclamation"></i> غير متصل بالجهاز`;
                 statusDiv.style.color = "#ef4444";
-                applyFilters();
-                applyLogFilters();
             }
+        }
+
+        function disconnectRouter() {
+            // إيقاف التحديث التلقائي إذا كان يعمّل
+            document.getElementById("autoRefreshToggle").checked = false;
+            toggleAutoRefresh();
+
+            // تفريغ البيانات
+            devices = [];
+            logsList = [];
+            isConnected = false;
+            
+            // إعادة ضبط الزر للحالة الافتراضية
+            const btn = document.getElementById("connectBtn");
+            btn.className = "btn btn-primary";
+            btn.innerHTML = `<i class="fa-solid fa-plug"></i> اتصل بالميكروتيك`;
+
+            // تحديث نص الحالة
+            const statusDiv = document.getElementById("connectionStatus");
+            statusDiv.innerHTML = `<i class="fa-solid fa-circle" style="font-size: 8px;"></i> غير متصل بالميكروتيك`;
+            statusDiv.style.color = "#94a3b8";
+
+            applyFilters();
+            applyLogFilters();
         }
 
         function clearLogs() {
