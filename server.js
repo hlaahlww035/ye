@@ -6,6 +6,7 @@ const path = require('path');
 const RouterOSAPI = require('node-routeros').RouterOSAPI;
 
 const app = express();
+const PORT = process.env.PORT || 3000;
 
 app.use(cors({ origin: '*', methods: ['GET', 'POST', 'PUT', 'DELETE'], allowedHeaders: ['Content-Type'] }));
 app.use(bodyParser.json());
@@ -36,11 +37,14 @@ function saveDB(data) {
 app.post('/api/netwatch', async (req, res) => {
     const { host, port, user, password } = req.body;
 
+    // تحويل المنفذ الممرر من القائمة أو استخدام 2011 الافتراضي
+    const targetPort = port ? parseInt(port, 10) : 2011;
+
     const conn = new RouterOSAPI({
         host: host || "192.168.88.1",
         user: user || "admin",
         password: password || "",
-        port: port || 8728, // بورت API الميكروتيك الافتراضي الصحيح
+        port: targetPort,
         timeout: 10
     });
 
@@ -116,14 +120,14 @@ app.get('/api/logs', (req, res) => {
     res.json(db.logs);
 });
 
-app.get(/(.*)/, (req, res) => {
+// توجيه كافة الطلبات الأخرى لفتح الواجهة الرئيسية (تم تعديل المسار لتفادي خطأ PathError)
+app.use((req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-// السماح بالوصول من كافة أجهزة الشبكة بربط السيرفر بـ 0.0.0.0
-app.listen(3000, '0.0.0.0', () => {
+// تشغيل السيرفر على البورت المعين محلياً أو من بيئة الاستضافة السحابية
+app.listen(PORT, '0.0.0.0', () => {
     console.log("==================================================");
-    console.log(" Netwatch Server is running on: http://0.0.0.0:3000");
-    console.log(" Network Access: http://10.2.31.10:3000");
+    console.log(` Netwatch Server is running on port: ${PORT}`);
     console.log("==================================================");
 });
