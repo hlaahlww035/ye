@@ -364,12 +364,12 @@
 
             // استخراج العنوان والمنفذ في حال كان العرض يحتوي على بورت مثل :6666
             let host = rawHost;
-            let port = 2011; // المنفذ الافتراضي
+            let port = 6666; // المنفذ الافتراضي
 
             if (rawHost.includes(":")) {
                 const parts = rawHost.split(":");
                 host = parts[0];
-                port = parseInt(parts[1], 10) || 2011;
+                port = parseInt(parts[1], 10) || 6666;
             }
 
             statusDiv.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> جاري المزامنة وتسجيل الأحداث...`;
