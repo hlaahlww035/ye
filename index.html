@@ -37,10 +37,7 @@
         .connection-form { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
         .input-group { display: flex; align-items: center; background: #334155; border-radius: 6px; padding: 4px 10px; border: 1px solid #475569; }
         .input-group label { font-size: 12px; color: #94a3b8; margin-left: 8px; }
-        .input-group input, .input-group select { background: transparent; border: none; color: white; outline: none; font-size: 13px; }
-        .input-group select { cursor: pointer; padding: 2px 0; }
-        .input-group select option { background-color: #1e293b; color: white; }
-        
+        .input-group input { background: transparent; border: none; color: white; outline: none; font-size: 13px; width: 110px; }
         .btn { padding: 7px 16px; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; display: flex; align-items: center; gap: 8px; font-size: 13px; }
         .btn-primary { background-color: #4f46e5; color: white; }
         .btn-success { background-color: #10b981; color: white; }
@@ -96,19 +93,9 @@
     <div class="main-content">
         <div class="top-bar">
             <div class="connection-form">
-                <div class="input-group">
-                    <label>MikroTik Host:</label>
-                    <select id="routerIp">
-                        <option value="192.168.88.1"> 192.168.88.1</option>
-                        <option value="192.168.88.8"> 192.168.88.8</option>
-                        <option value="d8550f5333d0.sn.mynetname.net"> d8550f5333d0.sn.mynetname.net</option>
-                        <option value="d8550f5333d0.sn.mynetname.net:6666"> d8550f5333d0.sn.mynetname.net:6666</option>
-                        <option value="d8550da322d7.sn.mynetname.net"> d8550da322d7.sn.mynetname.net</option>
-                        <option value="d8550da322d7.sn.mynetname.net:6666"> التوزيع</option>
-                    </select>
-                </div>
-                <div class="input-group"><label>User:</label><input type="text" id="routerUser" value="asd2011" style="width: 90px;"></div>
-                <div class="input-group"><label>Pass:</label><input type="password" id="routerPass" value="asd2011**" style="width: 90px;"></div>
+                <div class="input-group"><label>MikroTik IP:</label><input type="text" id="routerIp" value="d8550da322d7.sn.mynetname.net"></div>
+                <div class="input-group"><label>User:</label><input type="text" id="routerUser" value="asd2011"></div>
+                <div class="input-group"><label>Pass:</label><input type="password" id="routerPass" value="asd2011**"></div>
                 <button class="btn btn-primary" onclick="connectRouter()"><i class="fa-solid fa-plug"></i> اتصل بالميكروتيك</button>
             </div>
             <div id="connectionStatus" style="font-size: 12px; color: #10b981;"><i class="fa-solid fa-circle" style="font-size: 8px;"></i> متصل بالسيرفر المحلي</div>
@@ -357,20 +344,10 @@
         }
 
         async function connectRouter() {
-            const rawHost = document.getElementById("routerIp").value;
+            const ip = document.getElementById("routerIp").value;
             const user = document.getElementById("routerUser").value;
             const pass = document.getElementById("routerPass").value;
             const statusDiv = document.getElementById("connectionStatus");
-
-            // استخراج العنوان والمنفذ في حال كان العرض يحتوي على بورت مثل :6666
-            let host = rawHost;
-            let port = 6666; // المنفذ الافتراضي
-
-            if (rawHost.includes(":")) {
-                const parts = rawHost.split(":");
-                host = parts[0];
-                port = parseInt(parts[1], 10) || 6666;
-            }
 
             statusDiv.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> جاري المزامنة وتسجيل الأحداث...`;
             statusDiv.style.color = "#f59e0b";
@@ -379,7 +356,7 @@
                 const response = await fetch('/api/netwatch', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ host: host, port: port, user: user, password: pass })
+                    body: JSON.stringify({ host: ip, port: 2011, user: user, password: pass })
                 });
 
                 if (response.ok) {
