@@ -108,7 +108,7 @@
                 <div class="input-group"><label>Pass:</label><input type="password" id="routerPass" value="asd2011**" style="width: 90px;"></div>
                 <button class="btn btn-primary" onclick="connectRouter()"><i class="fa-solid fa-plug"></i> اتصل بالميكروتيك</button>
             </div>
-            <div id="connectionStatus" style="font-size: 12px; color: #10b981;"><i class="fa-solid fa-circle" style="font-size: 8px;"></i> متصل بالسيرفر المحلي</div>
+            <div id="connectionStatus" style="font-size: 12px; color: #94a3b8;"><i class="fa-solid fa-circle" style="font-size: 8px;"></i> غير متصل بالميكروتيك</div>
         </div>
 
         <!-- Section 1: Dashboard -->
@@ -217,15 +217,15 @@
     </div>
 
     <script>
-        // زر طي وفتح العمود الجانبي
         document.getElementById('toggleSidebar').addEventListener('click', function() {
             document.getElementById('sidebar').classList.toggle('collapsed');
         });
 
-        let devices = JSON.parse(localStorage.getItem("saved_netwatch_data")) || [];
-        let logsList = JSON.parse(localStorage.getItem("saved_netwatch_logs")) || [];
-        let currentFilteredDevices = [...devices];
-        let currentFilteredLogs = [...logsList];
+        // المجموعات فارغة تماماً عند البداية
+        let devices = [];
+        let logsList = [];
+        let currentFilteredDevices = [];
+        let currentFilteredLogs = [];
 
         let countdownInterval = null;
         const REFRESH_TIME_SECONDS = 120;
@@ -359,9 +359,8 @@
             const pass = document.getElementById("routerPass").value;
             const statusDiv = document.getElementById("connectionStatus");
 
-            // استخراج العنوان والمنفذ في حال كان العرض يحتوي على بورت مثل :6666
             let host = rawHost;
-            let port = 2011; // المنفذ الافتراضي
+            let port = 2011;
 
             if (rawHost.includes(":")) {
                 const parts = rawHost.split(":");
@@ -381,11 +380,8 @@
 
                 if (response.ok) {
                     const data = await response.json();
-                    devices = data.devices;
-                    logsList = data.logs;
-
-                    localStorage.setItem("saved_netwatch_data", JSON.stringify(devices));
-                    localStorage.setItem("saved_netwatch_logs", JSON.stringify(logsList));
+                    devices = data.devices || [];
+                    logsList = data.logs || [];
 
                     statusDiv.innerHTML = `<i class="fa-solid fa-circle" style="font-size: 8px;"></i> تم المزامنة والتسجيل (${new Date().toLocaleTimeString('ar-EG')})`;
                     statusDiv.style.color = "#10b981";
@@ -396,7 +392,9 @@
                     throw new Error("فشل الاتصال");
                 }
             } catch (err) {
-                statusDiv.innerHTML = `<i class="fa-solid fa-triangle-exclamation"></i> انقطع الاتصال للسيرفر (يتم العمل على البيانات المخزنة)`;
+                devices = [];
+                logsList = [];
+                statusDiv.innerHTML = `<i class="fa-solid fa-triangle-exclamation"></i> غير متصل بالجهاز`;
                 statusDiv.style.color = "#ef4444";
                 applyFilters();
                 applyLogFilters();
@@ -406,7 +404,6 @@
         function clearLogs() {
             if (confirm("هل أنت تأكد من مسح جميع سجلات الأحداث المخزنة؟")) {
                 logsList = [];
-                localStorage.setItem("saved_netwatch_logs", JSON.stringify([]));
                 applyLogFilters();
             }
         }
@@ -491,9 +488,9 @@
             link.click();
         }
 
+        // إظهار الشاشة فارغة عند بداية التحميل
         renderTable();
         applyLogFilters();
-        connectRouter();
     </script>
 </body>
 </html>
